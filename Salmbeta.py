@@ -43,7 +43,7 @@ def main():
         print("リストにある正しい番号(数字)を入力してください。") 
     
     # Audiveris.exe のフルパス
-    audiveris_exe = r"\Audiveris\Audiveris.exe"
+    audiveris_exe = os.path.abspath(r".\Audiveris\Audiveris.exe")
 
     base_name = os.path.splitext(os.path.basename(pdf_path))[0]
     
@@ -166,11 +166,11 @@ def main():
     
     print("\n【Step 3】sfizzエンジンで最高音質SFZをWAVへ一括レンダリング中...")
     
-    sfz_dir = r"\AccurateSalamanderGrandPianoV6.2beta2_48khz24bit\sfz_daw"
+    sfz_dir = r".\AccurateSalamanderGrandPianoV6.2beta2_48khz24bit\sfz_daw"
     sfz_filename = "Accurate-SalamanderGrandPiano_flat.Recommended.sfz"
     
     midi_path_abs = os.path.abspath(midi_path)
-    sfizz_exe_abs = os.path.abspath(r"\sfizz-1.2.3-win64\bin\Release\sfizz_render.exe")
+    sfizz_exe_abs = os.path.abspath(r".\sfizz-1.2.3-win64\bin\Release\sfizz_render.exe")
     
     cmd_sfizz = [
         sfizz_exe_abs,
