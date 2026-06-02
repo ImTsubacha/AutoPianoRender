@@ -8,7 +8,7 @@ def main():
     bpm = 193
     
     # Audiveris.exe のフルパス
-    audiveris_exe = r"C:\Program Files\Audiveris\Audiveris.exe"
+    audiveris_exe = r".\Audiveris\Audiveris.exe"
 
     base_name = os.path.splitext(pdf_path)[0]
     dir_name = f"{base_name}_Audiveris"
@@ -75,7 +75,7 @@ def main():
 
     # 3. 全ての音符の音量（MIDIベロシティ）を一定値に強制固定
     for n in score_data.recurse().notes:
-        n.volume.velocity = 85  # ★ここを変えると全体の音量が変わります（0〜127）
+        n.volume.velocity = 85  # ここを変えると全体の音量が変わります（0〜127）
     # ----------------------------------------------------
 
     score_data.insert(0, music21.tempo.MetronomeMark(number=bpm))
