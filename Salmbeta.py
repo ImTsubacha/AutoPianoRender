@@ -25,7 +25,7 @@ def main():
         sys.exit()
 
     # 楽譜リストを出力
-    print("\n🎵 処理する楽譜(PDF)を番号で選択してください:")
+    print("\n処理する楽譜(PDF)を番号で選択してください:")
     for i, file_path in enumerate(pdf_files):
         print(f"  [{i + 1}] {os.path.basename(file_path)}")
 
@@ -40,16 +40,16 @@ def main():
                 pdf_path = pdf_files[choice_idx]
                 break
         
-        print("⚠️ リストにある正しい番号(数字)を入力してください。") 
+        print("リストにある正しい番号(数字)を入力してください。") 
     
-    # ⚠️ Audiveris.exe のフルパス
-    audiveris_exe = r"C:\Program Files\Audiveris\Audiveris.exe"
+    # Audiveris.exe のフルパス
+    audiveris_exe = r"\Audiveris\Audiveris.exe"
 
     base_name = os.path.splitext(os.path.basename(pdf_path))[0]
     dir_name = f"test_{base_name}_Audiveris"
     
     os.makedirs(dir_name, exist_ok=True)
-    print(f"📁 保存用ディレクトリ '{dir_name}' を作成/確認しました。")
+    print(f"保存用ディレクトリ '{dir_name}' を作成/確認しました。")
 
     # 出力予定のファイルパス
     midi_path = os.path.join(dir_name, f"{base_name}_full_song.mid")
@@ -62,7 +62,7 @@ def main():
     
     if mxl_files:
         # ファイルがある場合はユーザーに聞く
-        ans = input(f"\n🤔 【Step 1】 解析済みのXMLがあります。Audiverisの処理をスキップしますか？ [Y/n]: ").strip().lower()
+        ans = input(f"\n【Step 1】 解析済みのXMLがあります。Audiverisの処理をスキップしますか？ [Y/n]: ").strip().lower()
         if ans != 'n':
             skip_step1 = True
             mxl_path = mxl_files[0]
@@ -86,7 +86,7 @@ def main():
                 print(f"エラー: .mxl ファイルが生成されませんでした。")
                 return
             mxl_path = mxl_files[0]
-            print(f"✅ 見つかったXMLファイル: {mxl_path}")
+            print(f"見つかったXMLファイル: {mxl_path}")
         except subprocess.CalledProcessError as e:
             print(f"\nエラー: Audiverisの解析に失敗しました。")
             return
@@ -100,7 +100,7 @@ def main():
         ans = input(f"\n【Step 2】 補正済みのMIDIがあります。Music21の処理をスキップしますか？ [Y/n]: ").strip().lower()
         if ans != 'n':
             skip_step2 = True
-            print("⏭️ Step 2 をスキップしました。")
+            print("⏭Step 2 をスキップしました。")
 
     if not skip_step2:
         print(f"\n【Step 2】Music21によるデータ補正を開始します...")
@@ -115,7 +115,7 @@ def main():
         # --------------------------------------------------------
         ans_dyn = input("1/3: 楽譜内の強弱記号(p, fなど)を無効化し、音量を均一(ベロシティ85)にしますか？ [Y/n]: ").strip().lower()
         if ans_dyn != 'n':
-            print("🔊 強弱を無効化し、音量を均一に設定しています...")
+            print("強弱を無効化し、音量を均一に設定しています...")
             for dyn in score_data.recurse().getElementsByClass('Dynamic'):
                 try: dyn.activeSite.remove(dyn)
                 except: pass
@@ -132,17 +132,17 @@ def main():
         if ans_bpm and ans_bpm != 'n':
             try:
                 bpm_val = float(ans_bpm)
-                print(f"⏱️ テンポを {bpm_val} に設定しています...")
+                print(f"テンポを {bpm_val} に設定しています...")
                 score_data.insert(0, music21.tempo.MetronomeMark(number=bpm_val))
             except ValueError:
-                print("⚠️ 数値として認識できなかったため、BPMの強制指定をスキップします。")
+                print("数値として認識できなかったため、BPMの強制指定をスキップします。")
 
         # --------------------------------------------------------
         # ③ リズム（小節の長さ）自動補正の選択
         # --------------------------------------------------------
         ans_rhy = input("3/3: OMRの認識漏れによる「小節の長さ不足」を自動補正しますか？ [Y/n]: ").strip().lower()
         if ans_rhy != 'n':
-            print("🧩 リズムの論理補正を実行しています...")
+            print("リズムの論理補正を実行しています...")
             for part in score_data.parts:
                 for m in part.getElementsByClass(music21.stream.Measure):
                     notes = m.flatten().notes
@@ -155,7 +155,7 @@ def main():
 
         # 変更を保存
         score_data.write('midi', fp=midi_path)
-        print(f"✅ 全ページの抽出とデータ補正完了！ MIDIを保存しました: {midi_path}")
+        print(f"全ページの抽出とデータ補正完了！ MIDIを保存しました: {midi_path}")
 
     # ==========================================
     # 【Step 3】 sfizzによるWAVレンダリング (毎回実行)
