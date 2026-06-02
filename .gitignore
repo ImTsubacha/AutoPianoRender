@@ -1,2 +1,10 @@
-AccurateSalamanderGrandPianoV6.2beta2_48khz24bit/
-bin/
+/bin/
+/AccurateSalamanderGrandPianoV6.2beta2_48khz24bit/
+/Score/*
+!/Score/.gitkeep
+/Completed/
+*.omr
+*.mxl
+*.mid
+*.png
+*.pdf

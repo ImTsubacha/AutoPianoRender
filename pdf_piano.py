@@ -7,18 +7,18 @@ def main():
     pdf_path = "WatashiwaWatashinoKotogaSuki.pdf" 
     bpm = 193
     
-    # ⚠️ Audiveris.exe のフルパス
+    # Audiveris.exe のフルパス
     audiveris_exe = r"C:\Program Files\Audiveris\Audiveris.exe"
 
     base_name = os.path.splitext(pdf_path)[0]
     dir_name = f"{base_name}_Audiveris"
     
     os.makedirs(dir_name, exist_ok=True)
-    print(f"📁 保存用ディレクトリ '{dir_name}' を作成/確認しました。")
+    print(f"保存用ディレクトリ '{dir_name}' を作成/確認しました。")
 
     # ハードウェアパワーの解放：Javaのメモリ上限を16GBに引き上げる
     os.environ["_JAVA_OPTIONS"] = "-Xmx16G"
-    print("🔋 Audiverisに最大16GBのメモリ(RAM)を強制割り当てしました！")
+    print("Audiverisに最大16GBのメモリ(RAM)を強制割り当てしました！")
 
     print(f"\n【Step 1】Audiverisによる全ページ一括解析を開始します (元PDFを直接読み込み)")
     
@@ -33,17 +33,17 @@ def main():
     try:
         subprocess.run(cmd, check=True, capture_output=True, text=True, encoding='utf-8', errors='replace')
     except subprocess.CalledProcessError as e:
-        print(f"\n❌ エラー: Audiverisの解析に失敗しました。")
-        print("--- 🔍 内部クラッシュログ (stdout の最後2000文字) ---")
+        print(f"\nエラー: Audiverisの解析に失敗しました。")
+        print("---内部クラッシュログ (stdout の最後2000文字)---")
         print(e.stdout[-2000:] if e.stdout else "stdoutなし")
-        print("--- ⚠️ エラーログ (stderr) ---")
+        print("--- エラーログ (stderr) ---")
         print(e.stderr if e.stderr else "stderrなし")
         return
 
     mxl_files = glob.glob(os.path.join(dir_name, "**", "*.mxl"), recursive=True)
 
     if not mxl_files:
-        print(f"❌ エラー: .mxl ファイルが生成されませんでした。")
+        print(f"エラー: .mxl ファイルが生成されませんでした。")
         return
 
     mxl_path = mxl_files[0]
@@ -56,8 +56,8 @@ def main():
         print(f"エラー: XMLデータ破損 ({e})。")
         return
 
-    # --- 🚀 追加：ダイナミクス（強弱）の完全無効化（エラー回避版） ---
-    print("🔊 楽譜内の強弱記号を削除し、音量を均一に設定しています...")
+    # ---追加：ダイナミクス（強弱）の完全無効化（エラー回避版---
+    print("楽譜内の強弱記号を削除し、音量を均一に設定しています...")
     
     # 1. p, f, mf などの強弱記号をすべて探し出して削除（文字列指定）
     for dyn in score_data.recurse().getElementsByClass('Dynamic'):
@@ -92,7 +92,7 @@ def main():
 
     midi_path = os.path.join(dir_name, f"{base_name}_full_song.mid")
     score_data.write('midi', fp=midi_path)
-    print(f"✅ 全ページの抽出と補正完了！ MIDIを保存しました: {midi_path}")
+    print(f"全ページの抽出と補正完了！ MIDIを保存しました: {midi_path}")
 
     print("\n【Step 3】FluidSynthで高音質WAVへ一括レンダリング中...")
     sf2_path = "UprightPianoKW-20220221.sf2"
@@ -108,7 +108,7 @@ def main():
     
     try:
         subprocess.run(cmd_fluid, check=True)
-        print(f"✨✨ フルコーラス完成！ '{output_wav}' が出力されました！ ✨✨")
+        print(f"フルコーラス完成！ '{output_wav}' が出力されました！")
     except FileNotFoundError:
         print("エラー: fluidsynthが見つかりません。")
 
