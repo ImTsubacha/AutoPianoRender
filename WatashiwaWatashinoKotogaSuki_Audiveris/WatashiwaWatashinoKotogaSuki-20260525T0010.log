@@ -1,0 +1,679 @@
+2026-05-25 00:10:31,807 INFO [WatashiwaWatashinoKotogaSuki]                 Book.java:560  | 11 sheets in D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:10:31,904 INFO []                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:10:31,904 INFO []                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:10:31,908 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1#2#3#4#5#6#7#8#9#10#11]
+2026-05-25 00:10:31,908 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:10:32,266 INFO [WatashiwaWatashinoKotogaSuki#1]            SheetStub.java:1278 | Loaded image #1 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:10:32,269 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:10:32,547 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:10:32,568 INFO [WatashiwaWatashinoKotogaSuki#1]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:10:32,568 INFO [WatashiwaWatashinoKotogaSuki#1]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 384% of needed quorum
+2026-05-25 00:10:32,568 INFO [WatashiwaWatashinoKotogaSuki#1]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-25 00:10:32,568 INFO [WatashiwaWatashinoKotogaSuki#1]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-25 00:10:32,569 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | GRID
+2026-05-25 00:10:32,894 INFO [WatashiwaWatashinoKotogaSuki#1]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:10:33,000 INFO [WatashiwaWatashinoKotogaSuki#1]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-25 00:10:33,173 INFO [WatashiwaWatashinoKotogaSuki#1]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-25 00:10:33,376 INFO [WatashiwaWatashinoKotogaSuki#1]        SystemManager.java:134  | Indentation detected for system #1
+2026-05-25 00:10:33,378 INFO [WatashiwaWatashinoKotogaSuki#1]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-25 00:10:33,379 INFO [WatashiwaWatashinoKotogaSuki#1]                 Book.java:543  | Created scores: [{Score 1}]
+2026-05-25 00:10:33,379 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:10:34,023 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:10:34,057 INFO [WatashiwaWatashinoKotogaSuki#1]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:10:34,112 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:10:36,281 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:10:36,502 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:10:39,758 INFO [WatashiwaWatashinoKotogaSuki#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2026-05-25 00:10:39,760 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:10:40,256 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:10:40,400 INFO [WatashiwaWatashinoKotogaSuki#1]        ReductionStep.java:105  | Stems free length median value: 68 pixels, 3.6 interlines
+2026-05-25 00:10:40,404 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:10:40,404 INFO [WatashiwaWatashinoKotogaSuki#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:10:40,404 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:10:40,496 WARN [WatashiwaWatashinoKotogaSuki#1]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:10:40,496 INFO [WatashiwaWatashinoKotogaSuki#1]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:10:40,502 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:10:40,509 INFO [WatashiwaWatashinoKotogaSuki#1]                 Page.java:307  | 18 raw measures: [3 in system#1, 4 in system#2, 3 in system#3, 4 in system#4, 4 in system#5]
+2026-05-25 00:10:40,509 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:10:40,525 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:10:41,088 INFO [WatashiwaWatashinoKotogaSuki#1]         SlursBuilder.java:240  | Slurs: 47
+2026-05-25 00:10:41,128 INFO [WatashiwaWatashinoKotogaSuki#1]      SegmentsBuilder.java:155  | Segments: 51
+2026-05-25 00:10:41,143 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:10:41,842 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:10:41,858 INFO [WatashiwaWatashinoKotogaSuki#1]             KeyInter.java:1189 | No effective key before AlterInter#8620{(0.800) staff:4 NATURAL pitch:2.0}
+2026-05-25 00:10:41,866 INFO [WatashiwaWatashinoKotogaSuki#1]             KeyInter.java:1189 | No effective key before AlterInter#8683{(0.800) staff:5 NATURAL pitch:0.0}
+2026-05-25 00:10:41,866 INFO [WatashiwaWatashinoKotogaSuki#1]             KeyInter.java:1189 | No effective key before AlterInter#8678{(0.800) staff:6 NATURAL pitch:-1.0}
+2026-05-25 00:10:41,872 INFO [WatashiwaWatashinoKotogaSuki#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8734{(0.681) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2738]
+2026-05-25 00:10:41,873 INFO [WatashiwaWatashinoKotogaSuki#1]             KeyInter.java:1189 | No effective key before AlterInter#8842{(0.800) staff:7 NATURAL pitch:-2.0}
+2026-05-25 00:10:41,874 INFO [WatashiwaWatashinoKotogaSuki#1]             KeyInter.java:1189 | No effective key before AlterInter#8839{(0.800) staff:8 NATURAL pitch:-1.0}
+2026-05-25 00:10:41,882 INFO [WatashiwaWatashinoKotogaSuki#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8848{(0.681) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2738]
+2026-05-25 00:10:41,883 INFO [WatashiwaWatashinoKotogaSuki#1]             KeyInter.java:1189 | No effective key before AlterInter#8858{(0.800) staff:9 NATURAL pitch:3.0}
+2026-05-25 00:10:41,883 INFO [WatashiwaWatashinoKotogaSuki#1]             KeyInter.java:1189 | No effective key before AlterInter#8861{(0.800) staff:9 NATURAL pitch:-3.0}
+2026-05-25 00:10:41,883 INFO [WatashiwaWatashinoKotogaSuki#1]             KeyInter.java:1189 | No effective key before AlterInter#8868{(0.800) staff:9 NATURAL pitch:3.0}
+2026-05-25 00:10:41,883 INFO [WatashiwaWatashinoKotogaSuki#1]             KeyInter.java:1189 | No effective key before AlterInter#8867{(0.800) staff:10 NATURAL pitch:-2.0}
+2026-05-25 00:10:41,893 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:10:41,912 INFO [WatashiwaWatashinoKotogaSuki#1]        MeasureRhythm.java:1276 | Measure{#1} Time inconsistency in {1/4=[HeadChordInter#7448{(0.960/0.960) staff:1 slot#4 off:1/4 dur:1/8}], 7/24=[HeadChordInter#7471{(0.962/0.962) staff:2 slot#4 off:7/24 dur:1/8}]}
+2026-05-25 00:10:41,945 INFO [WatashiwaWatashinoKotogaSuki#1]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:10:41,949 INFO [WatashiwaWatashinoKotogaSuki#1]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:10:41,996 INFO [WatashiwaWatashinoKotogaSuki#1]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:10:42,075 INFO [WatashiwaWatashinoKotogaSuki#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-05-25 00:10:42,592 INFO [WatashiwaWatashinoKotogaSuki#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-05-25 00:10:42,592 INFO [WatashiwaWatashinoKotogaSuki#1]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:10:42,596 INFO [WatashiwaWatashinoKotogaSuki#1]            SheetStub.java:1655 | Sheet#1 disposed
+2026-05-25 00:10:42,626 INFO [WatashiwaWatashinoKotogaSuki#1]                 Book.java:2050 | End of Stub#1
+2026-05-25 00:10:42,627 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:10:42,784 INFO [WatashiwaWatashinoKotogaSuki#2]            SheetStub.java:1278 | Loaded image #2 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:10:42,786 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:10:43,050 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:10:43,064 INFO [WatashiwaWatashinoKotogaSuki#2]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:10:43,065 INFO [WatashiwaWatashinoKotogaSuki#2]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 297% of needed quorum
+2026-05-25 00:10:43,065 INFO [WatashiwaWatashinoKotogaSuki#2]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-25 00:10:43,065 INFO [WatashiwaWatashinoKotogaSuki#2]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-25 00:10:43,065 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | GRID
+2026-05-25 00:10:43,158 INFO [WatashiwaWatashinoKotogaSuki#2]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:10:43,168 INFO [WatashiwaWatashinoKotogaSuki#2]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-25 00:10:43,251 INFO [WatashiwaWatashinoKotogaSuki#2]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-25 00:10:43,354 INFO [WatashiwaWatashinoKotogaSuki#2]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-25 00:10:43,354 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:10:43,496 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:10:43,513 INFO [WatashiwaWatashinoKotogaSuki#2]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:10:43,518 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:10:45,250 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:10:45,312 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:10:48,706 INFO [WatashiwaWatashinoKotogaSuki#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-25 00:10:48,706 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:10:49,048 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:10:49,116 INFO [WatashiwaWatashinoKotogaSuki#2]        ReductionStep.java:105  | Stems free length median value: 67 pixels, 3.5 interlines
+2026-05-25 00:10:49,119 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:10:49,119 INFO [WatashiwaWatashinoKotogaSuki#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:10:49,119 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:10:49,185 WARN [WatashiwaWatashinoKotogaSuki#2]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:10:49,186 INFO [WatashiwaWatashinoKotogaSuki#2]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:10:49,187 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:10:49,188 INFO [WatashiwaWatashinoKotogaSuki#2]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-25 00:10:49,189 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:10:49,194 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:10:49,509 INFO [WatashiwaWatashinoKotogaSuki#2]         SlursBuilder.java:240  | Slurs: 49
+2026-05-25 00:10:49,514 INFO [WatashiwaWatashinoKotogaSuki#2]      SegmentsBuilder.java:155  | Segments: 60
+2026-05-25 00:10:49,517 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:10:49,818 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:10:49,824 INFO [WatashiwaWatashinoKotogaSuki#2]             KeyInter.java:1189 | No effective key before AlterInter#7866{(0.800) staff:3 NATURAL pitch:-3.0}
+2026-05-25 00:10:49,824 INFO [WatashiwaWatashinoKotogaSuki#2]             KeyInter.java:1189 | No effective key before AlterInter#7867{(0.800) staff:3 NATURAL pitch:4.0}
+2026-05-25 00:10:49,824 INFO [WatashiwaWatashinoKotogaSuki#2]             KeyInter.java:1189 | No effective key before AlterInter#7878{(0.800) staff:4 NATURAL pitch:2.0}
+2026-05-25 00:10:49,832 INFO [WatashiwaWatashinoKotogaSuki#2]             KeyInter.java:1189 | No effective key before AlterInter#7903{(0.800) staff:5 NATURAL pitch:2.0}
+2026-05-25 00:10:49,833 INFO [WatashiwaWatashinoKotogaSuki#2]             KeyInter.java:1189 | No effective key before AlterInter#7939{(0.800) staff:6 NATURAL pitch:-3.0}
+2026-05-25 00:10:49,838 INFO [WatashiwaWatashinoKotogaSuki#2]             KeyInter.java:1189 | No effective key before AlterInter#7988{(0.800) staff:7 NATURAL pitch:4.0}
+2026-05-25 00:10:49,838 INFO [WatashiwaWatashinoKotogaSuki#2]             KeyInter.java:1189 | No effective key before AlterInter#8002{(0.800) staff:7 NATURAL pitch:-3.0}
+2026-05-25 00:10:49,844 INFO [WatashiwaWatashinoKotogaSuki#2]             KeyInter.java:1189 | No effective key before AlterInter#8080{(0.800) staff:9 NATURAL pitch:-2.0}
+2026-05-25 00:10:49,844 INFO [WatashiwaWatashinoKotogaSuki#2]             KeyInter.java:1189 | No effective key before AlterInter#8081{(0.800) staff:10 NATURAL pitch:-1.0}
+2026-05-25 00:10:49,850 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:10:49,850 INFO [WatashiwaWatashinoKotogaSuki#2]           PageRhythm.java:199  | {Page#2.1} Time value reused from sheet#1
+2026-05-25 00:10:49,870 INFO [WatashiwaWatashinoKotogaSuki#2]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:10:49,871 INFO [WatashiwaWatashinoKotogaSuki#2]       SheetReduction.java:154  | Gutter. Different glyphs 4/5 ArticulationInter#7989{(0.542/0.696) ACCENT} vs EndingInter#7372{(0.490/0.766) staff:9 ENDING}
+2026-05-25 00:10:49,871 INFO [WatashiwaWatashinoKotogaSuki#2]       SheetReduction.java:154  | Gutter. Different glyphs 4/5 ArticulationInter#8000{(0.577/0.727) STACCATO} vs EndingInter#7372{(0.490/0.766) staff:9 ENDING}
+2026-05-25 00:10:49,872 INFO [WatashiwaWatashinoKotogaSuki#2]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:10:49,912 INFO [WatashiwaWatashinoKotogaSuki#2]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:10:49,957 INFO [WatashiwaWatashinoKotogaSuki#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2026-05-25 00:10:50,274 INFO [WatashiwaWatashinoKotogaSuki#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-05-25 00:10:50,274 INFO [WatashiwaWatashinoKotogaSuki#2]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:10:50,279 INFO [WatashiwaWatashinoKotogaSuki#2]            SheetStub.java:1655 | Sheet#2 disposed
+2026-05-25 00:10:50,301 INFO [WatashiwaWatashinoKotogaSuki#2]                 Book.java:2050 | End of Stub#2
+2026-05-25 00:10:50,301 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:10:50,452 INFO [WatashiwaWatashinoKotogaSuki#3]            SheetStub.java:1278 | Loaded image #3 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:10:50,453 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:10:50,684 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:10:50,686 INFO [WatashiwaWatashinoKotogaSuki#3]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:10:50,686 INFO [WatashiwaWatashinoKotogaSuki#3]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 401% of needed quorum
+2026-05-25 00:10:50,688 INFO [WatashiwaWatashinoKotogaSuki#3]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-25 00:10:50,688 INFO [WatashiwaWatashinoKotogaSuki#3]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-25 00:10:50,688 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | GRID
+2026-05-25 00:10:50,747 INFO [WatashiwaWatashinoKotogaSuki#3]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:10:50,755 INFO [WatashiwaWatashinoKotogaSuki#3]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-25 00:10:50,795 INFO [WatashiwaWatashinoKotogaSuki#3]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-25 00:10:50,883 INFO [WatashiwaWatashinoKotogaSuki#3]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-25 00:10:50,883 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:10:50,953 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:10:50,969 INFO [WatashiwaWatashinoKotogaSuki#3]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:10:50,974 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:10:52,751 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:10:52,832 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:10:56,124 INFO [WatashiwaWatashinoKotogaSuki#3]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2026-05-25 00:10:56,125 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:10:56,523 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:10:56,580 INFO [WatashiwaWatashinoKotogaSuki#3]        ReductionStep.java:105  | Stems free length median value: 62 pixels, 3.3 interlines
+2026-05-25 00:10:56,583 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:10:56,584 INFO [WatashiwaWatashinoKotogaSuki#3]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:10:56,584 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:10:56,648 WARN [WatashiwaWatashinoKotogaSuki#3]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:10:56,648 INFO [WatashiwaWatashinoKotogaSuki#3]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:10:56,650 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:10:56,652 INFO [WatashiwaWatashinoKotogaSuki#3]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-25 00:10:56,652 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:10:56,654 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:10:56,960 INFO [WatashiwaWatashinoKotogaSuki#3]         SlursBuilder.java:240  | Slurs: 58
+2026-05-25 00:10:56,968 INFO [WatashiwaWatashinoKotogaSuki#3]      SegmentsBuilder.java:155  | Segments: 51
+2026-05-25 00:10:56,973 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:10:57,262 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:10:57,263 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8498{(0.800) staff:1 NATURAL pitch:-5.0}
+2026-05-25 00:10:57,263 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8499{(0.800) staff:1 NATURAL pitch:2.0}
+2026-05-25 00:10:57,263 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8595{(0.800) staff:1 NATURAL pitch:-4.0}
+2026-05-25 00:10:57,263 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8596{(0.800) staff:2 NATURAL pitch:5.0}
+2026-05-25 00:10:57,268 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8664{(0.800) staff:3 NATURAL pitch:-5.0}
+2026-05-25 00:10:57,268 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8665{(0.800) staff:4 NATURAL pitch:-3.0}
+2026-05-25 00:10:57,268 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8676{(0.800) staff:4 NATURAL pitch:4.0}
+2026-05-25 00:10:57,273 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8749{(0.800) staff:5 NATURAL pitch:-3.0}
+2026-05-25 00:10:57,280 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8797{(0.800) staff:7 NATURAL pitch:-5.0}
+2026-05-25 00:10:57,280 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8769{(0.800) staff:8 NATURAL pitch:-5.0}
+2026-05-25 00:10:57,280 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8798{(0.800) staff:8 NATURAL pitch:-3.0}
+2026-05-25 00:10:57,280 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8813{(0.800) staff:8 NATURAL pitch:4.0}
+2026-05-25 00:10:57,286 INFO [WatashiwaWatashinoKotogaSuki#3]             KeyInter.java:1189 | No effective key before AlterInter#8876{(0.800) staff:10 NATURAL pitch:3.0}
+2026-05-25 00:10:57,290 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:10:57,290 INFO [WatashiwaWatashinoKotogaSuki#3]           PageRhythm.java:199  | {Page#3.1} Time value reused from sheet#1
+2026-05-25 00:10:57,307 INFO [WatashiwaWatashinoKotogaSuki#3]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:10:57,308 INFO [WatashiwaWatashinoKotogaSuki#3]       SheetReduction.java:154  | Gutter. Different glyphs 2/3 ArticulationInter#8624{(0.743/0.826) STACCATO} vs EndingInter#7945{(0.557/0.810) staff:5 ENDING}
+2026-05-25 00:10:57,308 INFO [WatashiwaWatashinoKotogaSuki#3]       SheetReduction.java:154  | Gutter. Different glyphs 4/5 ArticulationInter#8771{(0.577/0.704) STACCATO} vs EndingInter#7946{(0.540/0.618) staff:9 ENDING}
+2026-05-25 00:10:57,310 INFO [WatashiwaWatashinoKotogaSuki#3]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:10:57,351 INFO [WatashiwaWatashinoKotogaSuki#3]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:10:57,393 INFO [WatashiwaWatashinoKotogaSuki#3]           DataHolder.java:348  | Stored /sheet#3/BINARY.png
+2026-05-25 00:10:57,747 INFO [WatashiwaWatashinoKotogaSuki#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-05-25 00:10:57,747 INFO [WatashiwaWatashinoKotogaSuki#3]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:10:57,751 INFO [WatashiwaWatashinoKotogaSuki#3]            SheetStub.java:1655 | Sheet#3 disposed
+2026-05-25 00:10:57,772 INFO [WatashiwaWatashinoKotogaSuki#3]                 Book.java:2050 | End of Stub#3
+2026-05-25 00:10:57,773 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:10:57,796 INFO [WatashiwaWatashinoKotogaSuki#4]            SheetStub.java:1278 | Loaded image #4 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:10:57,796 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:10:58,024 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:10:58,025 INFO [WatashiwaWatashinoKotogaSuki#4]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:10:58,025 INFO [WatashiwaWatashinoKotogaSuki#4]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 323% of needed quorum
+2026-05-25 00:10:58,025 INFO [WatashiwaWatashinoKotogaSuki#4]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-25 00:10:58,025 INFO [WatashiwaWatashinoKotogaSuki#4]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-25 00:10:58,025 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | GRID
+2026-05-25 00:10:58,076 INFO [WatashiwaWatashinoKotogaSuki#4]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:10:58,083 INFO [WatashiwaWatashinoKotogaSuki#4]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-25 00:10:58,118 INFO [WatashiwaWatashinoKotogaSuki#4]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-25 00:10:58,199 INFO [WatashiwaWatashinoKotogaSuki#4]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-25 00:10:58,199 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:10:58,282 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:10:58,302 INFO [WatashiwaWatashinoKotogaSuki#4]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:10:58,309 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:11:00,040 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:11:00,098 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:11:03,271 INFO [WatashiwaWatashinoKotogaSuki#4]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6,R:-0.5]}
+2026-05-25 00:11:03,271 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:11:03,600 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:11:03,662 INFO [WatashiwaWatashinoKotogaSuki#4]        ReductionStep.java:105  | Stems free length median value: 67 pixels, 3.5 interlines
+2026-05-25 00:11:03,663 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:11:03,663 INFO [WatashiwaWatashinoKotogaSuki#4]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:11:03,665 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:11:03,724 WARN [WatashiwaWatashinoKotogaSuki#4]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:11:03,724 INFO [WatashiwaWatashinoKotogaSuki#4]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:11:03,725 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:11:03,725 INFO [WatashiwaWatashinoKotogaSuki#4]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-25 00:11:03,725 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:11:03,730 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:11:04,014 INFO [WatashiwaWatashinoKotogaSuki#4]         SlursBuilder.java:240  | Slurs: 61
+2026-05-25 00:11:04,022 INFO [WatashiwaWatashinoKotogaSuki#4]      SegmentsBuilder.java:155  | Segments: 40
+2026-05-25 00:11:04,023 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:11:04,333 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:11:04,334 INFO [WatashiwaWatashinoKotogaSuki#4]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8500{(0.236) staff:1 OTTAVA BASSA} at java.awt.Point[x=924,y=560]
+2026-05-25 00:11:04,338 INFO [WatashiwaWatashinoKotogaSuki#4]             KeyInter.java:1189 | No effective key before AlterInter#8601{(0.800) staff:3 NATURAL pitch:0.0}
+2026-05-25 00:11:04,345 INFO [WatashiwaWatashinoKotogaSuki#4]             KeyInter.java:1189 | No effective key before AlterInter#8716{(0.800) staff:5 NATURAL pitch:-2.0}
+2026-05-25 00:11:04,345 INFO [WatashiwaWatashinoKotogaSuki#4]             KeyInter.java:1189 | No effective key before AlterInter#8726{(0.800) staff:5 NATURAL pitch:3.0}
+2026-05-25 00:11:04,345 INFO [WatashiwaWatashinoKotogaSuki#4]             KeyInter.java:1189 | No effective key before AlterInter#8729{(0.800) staff:5 NATURAL pitch:-3.0}
+2026-05-25 00:11:04,345 INFO [WatashiwaWatashinoKotogaSuki#4]             KeyInter.java:1189 | No effective key before AlterInter#8713{(0.800) staff:6 NATURAL pitch:-1.0}
+2026-05-25 00:11:04,350 INFO [WatashiwaWatashinoKotogaSuki#4]             KeyInter.java:1189 | No effective key before AlterInter#8750{(0.800) staff:7 NATURAL pitch:3.0}
+2026-05-25 00:11:04,350 INFO [WatashiwaWatashinoKotogaSuki#4]             KeyInter.java:1189 | No effective key before AlterInter#8749{(0.800) staff:8 NATURAL pitch:-2.0}
+2026-05-25 00:11:04,359 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:11:04,359 INFO [WatashiwaWatashinoKotogaSuki#4]           PageRhythm.java:199  | {Page#4.1} Time value reused from sheet#1
+2026-05-25 00:11:04,372 INFO [WatashiwaWatashinoKotogaSuki#4]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:11:04,373 INFO [WatashiwaWatashinoKotogaSuki#4]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:11:04,414 INFO [WatashiwaWatashinoKotogaSuki#4]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:11:04,456 INFO [WatashiwaWatashinoKotogaSuki#4]           DataHolder.java:348  | Stored /sheet#4/BINARY.png
+2026-05-25 00:11:04,766 INFO [WatashiwaWatashinoKotogaSuki#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-05-25 00:11:04,766 INFO [WatashiwaWatashinoKotogaSuki#4]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:11:04,772 INFO [WatashiwaWatashinoKotogaSuki#4]            SheetStub.java:1655 | Sheet#4 disposed
+2026-05-25 00:11:04,794 INFO [WatashiwaWatashinoKotogaSuki#4]                 Book.java:2050 | End of Stub#4
+2026-05-25 00:11:04,795 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:11:04,892 INFO [WatashiwaWatashinoKotogaSuki#5]            SheetStub.java:1278 | Loaded image #5 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:11:04,892 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:11:05,130 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:11:05,131 INFO [WatashiwaWatashinoKotogaSuki#5]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:11:05,132 INFO [WatashiwaWatashinoKotogaSuki#5]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 312% of needed quorum
+2026-05-25 00:11:05,132 INFO [WatashiwaWatashinoKotogaSuki#5]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-25 00:11:05,132 INFO [WatashiwaWatashinoKotogaSuki#5]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-25 00:11:05,132 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | GRID
+2026-05-25 00:11:05,182 INFO [WatashiwaWatashinoKotogaSuki#5]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:11:05,187 INFO [WatashiwaWatashinoKotogaSuki#5]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-25 00:11:05,224 INFO [WatashiwaWatashinoKotogaSuki#5]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-25 00:11:05,303 INFO [WatashiwaWatashinoKotogaSuki#5]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-25 00:11:05,303 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:11:05,402 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:11:05,418 INFO [WatashiwaWatashinoKotogaSuki#5]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:11:05,424 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:11:07,087 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:11:07,159 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:11:10,251 INFO [WatashiwaWatashinoKotogaSuki#5]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-25 00:11:10,251 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:11:10,582 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:11:10,634 INFO [WatashiwaWatashinoKotogaSuki#5]        ReductionStep.java:105  | Stems free length median value: 65 pixels, 3.4 interlines
+2026-05-25 00:11:10,637 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:11:10,637 INFO [WatashiwaWatashinoKotogaSuki#5]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:11:10,637 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:11:10,694 WARN [WatashiwaWatashinoKotogaSuki#5]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:11:10,695 INFO [WatashiwaWatashinoKotogaSuki#5]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:11:10,696 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:11:10,697 INFO [WatashiwaWatashinoKotogaSuki#5]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-25 00:11:10,697 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:11:10,700 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:11:10,993 INFO [WatashiwaWatashinoKotogaSuki#5]         SlursBuilder.java:240  | Slurs: 24
+2026-05-25 00:11:10,998 INFO [WatashiwaWatashinoKotogaSuki#5]      SegmentsBuilder.java:155  | Segments: 47
+2026-05-25 00:11:11,002 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:11:11,417 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:11:11,417 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8264{(0.800) staff:1 NATURAL pitch:-3.0}
+2026-05-25 00:11:11,417 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8339{(0.800) staff:1 NATURAL pitch:-1.0}
+2026-05-25 00:11:11,417 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8460{(0.800) staff:1 NATURAL pitch:2.0}
+2026-05-25 00:11:11,417 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8462{(0.800) staff:2 NATURAL pitch:-3.0}
+2026-05-25 00:11:11,421 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8562{(0.800) staff:3 NATURAL pitch:4.0}
+2026-05-25 00:11:11,421 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8575{(0.800) staff:3 NATURAL pitch:-3.0}
+2026-05-25 00:11:11,425 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8676{(0.216) staff:5 NATURAL pitch:-1.0}
+2026-05-25 00:11:11,425 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8680{(0.800) staff:6 NATURAL pitch:-5.0}
+2026-05-25 00:11:11,430 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8764{(0.800) staff:7 NATURAL pitch:-3.0}
+2026-05-25 00:11:11,430 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8761{(0.800) staff:8 NATURAL pitch:-4.0}
+2026-05-25 00:11:11,430 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8770{(0.800) staff:8 NATURAL pitch:-1.0}
+2026-05-25 00:11:11,434 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8867{(0.800) staff:9 NATURAL pitch:-4.0}
+2026-05-25 00:11:11,434 INFO [WatashiwaWatashinoKotogaSuki#5]             KeyInter.java:1189 | No effective key before AlterInter#8868{(0.800) staff:10 NATURAL pitch:5.0}
+2026-05-25 00:11:11,439 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:11:11,439 INFO [WatashiwaWatashinoKotogaSuki#5]           PageRhythm.java:199  | {Page#5.1} Time value reused from sheet#1
+2026-05-25 00:11:11,451 INFO [WatashiwaWatashinoKotogaSuki#5]                Voice.java:257  | Measure{#18} Voice{#1 excess:1/8} too long
+2026-05-25 00:11:11,451 INFO [WatashiwaWatashinoKotogaSuki#5]                Voice.java:257  | Measure{#18} Voice{#5 excess:1/8} too long
+2026-05-25 00:11:11,451 INFO [WatashiwaWatashinoKotogaSuki#5]                Voice.java:257  | Measure{#18} Voice{#7 excess:1/8} too long
+2026-05-25 00:11:11,452 INFO [WatashiwaWatashinoKotogaSuki#5]          StackRhythm.java:224  | S5 MeasureStack#18 no correct rhythm
+2026-05-25 00:11:11,453 INFO [WatashiwaWatashinoKotogaSuki#5]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:11:11,454 INFO [WatashiwaWatashinoKotogaSuki#5]                Voice.java:257  | Measure{#18} Voice{#1 excess:1/8} too long
+2026-05-25 00:11:11,454 INFO [WatashiwaWatashinoKotogaSuki#5]                Voice.java:257  | Measure{#18} Voice{#5 excess:1/8} too long
+2026-05-25 00:11:11,454 INFO [WatashiwaWatashinoKotogaSuki#5]                Voice.java:257  | Measure{#18} Voice{#7 excess:1/8} too long
+2026-05-25 00:11:11,454 INFO [WatashiwaWatashinoKotogaSuki#5]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:11:11,496 INFO [WatashiwaWatashinoKotogaSuki#5]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:11:11,538 INFO [WatashiwaWatashinoKotogaSuki#5]           DataHolder.java:348  | Stored /sheet#5/BINARY.png
+2026-05-25 00:11:11,840 INFO [WatashiwaWatashinoKotogaSuki#5]                Sheet.java:1583 | Stored /sheet#5/sheet#5.xml
+2026-05-25 00:11:11,840 INFO [WatashiwaWatashinoKotogaSuki#5]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:11:11,845 INFO [WatashiwaWatashinoKotogaSuki#5]            SheetStub.java:1655 | Sheet#5 disposed
+2026-05-25 00:11:11,864 INFO [WatashiwaWatashinoKotogaSuki#5]                 Book.java:2050 | End of Stub#5
+2026-05-25 00:11:11,866 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:11:11,988 INFO [WatashiwaWatashinoKotogaSuki#6]            SheetStub.java:1278 | Loaded image #6 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:11:11,988 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:11:12,218 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:11:12,221 INFO [WatashiwaWatashinoKotogaSuki#6]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:11:12,221 INFO [WatashiwaWatashinoKotogaSuki#6]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 470% of needed quorum
+2026-05-25 00:11:12,221 INFO [WatashiwaWatashinoKotogaSuki#6]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-25 00:11:12,221 INFO [WatashiwaWatashinoKotogaSuki#6]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-25 00:11:12,221 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | GRID
+2026-05-25 00:11:12,282 INFO [WatashiwaWatashinoKotogaSuki#6]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:11:12,287 INFO [WatashiwaWatashinoKotogaSuki#6]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-25 00:11:12,324 INFO [WatashiwaWatashinoKotogaSuki#6]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-25 00:11:12,410 INFO [WatashiwaWatashinoKotogaSuki#6]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-25 00:11:12,410 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:11:12,537 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:11:12,553 INFO [WatashiwaWatashinoKotogaSuki#6]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:11:12,559 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:11:14,300 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:11:14,385 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:11:17,505 INFO [WatashiwaWatashinoKotogaSuki#6]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2026-05-25 00:11:17,507 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:11:17,902 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:11:17,959 INFO [WatashiwaWatashinoKotogaSuki#6]        ReductionStep.java:105  | Stems free length median value: 65 pixels, 3.4 interlines
+2026-05-25 00:11:17,962 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:11:17,962 INFO [WatashiwaWatashinoKotogaSuki#6]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:11:17,962 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:11:18,019 WARN [WatashiwaWatashinoKotogaSuki#6]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:11:18,019 INFO [WatashiwaWatashinoKotogaSuki#6]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:11:18,021 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:11:18,021 INFO [WatashiwaWatashinoKotogaSuki#6]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-25 00:11:18,022 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:11:18,023 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:11:18,296 INFO [WatashiwaWatashinoKotogaSuki#6]         SlursBuilder.java:240  | Slurs: 43
+2026-05-25 00:11:18,304 INFO [WatashiwaWatashinoKotogaSuki#6]      SegmentsBuilder.java:155  | Segments: 30
+2026-05-25 00:11:18,309 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:11:18,575 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:11:18,581 INFO [WatashiwaWatashinoKotogaSuki#6]             KeyInter.java:1189 | No effective key before AlterInter#8822{(0.800) staff:3 NATURAL pitch:-3.0}
+2026-05-25 00:11:18,581 INFO [WatashiwaWatashinoKotogaSuki#6]             KeyInter.java:1189 | No effective key before AlterInter#8864{(0.800) staff:3 NATURAL pitch:0.0}
+2026-05-25 00:11:18,581 INFO [WatashiwaWatashinoKotogaSuki#6]             KeyInter.java:1189 | No effective key before AlterInter#8865{(0.800) staff:4 NATURAL pitch:-5.0}
+2026-05-25 00:11:18,587 INFO [WatashiwaWatashinoKotogaSuki#6]             KeyInter.java:1189 | No effective key before AlterInter#8914{(0.800) staff:5 NATURAL pitch:-5.0}
+2026-05-25 00:11:18,587 INFO [WatashiwaWatashinoKotogaSuki#6]             KeyInter.java:1189 | No effective key before AlterInter#8951{(0.800) staff:5 NATURAL pitch:-3.0}
+2026-05-25 00:11:18,587 INFO [WatashiwaWatashinoKotogaSuki#6]             KeyInter.java:1189 | No effective key before AlterInter#8915{(0.800) staff:6 NATURAL pitch:-3.0}
+2026-05-25 00:11:18,587 INFO [WatashiwaWatashinoKotogaSuki#6]             KeyInter.java:1189 | No effective key before AlterInter#8926{(0.800) staff:6 NATURAL pitch:4.0}
+2026-05-25 00:11:18,592 INFO [WatashiwaWatashinoKotogaSuki#6]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8976{(0.465) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=209,y=2769]
+2026-05-25 00:11:18,592 INFO [WatashiwaWatashinoKotogaSuki#6]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8980{(0.207) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=209,y=2769]
+2026-05-25 00:11:18,592 INFO [WatashiwaWatashinoKotogaSuki#6]             KeyInter.java:1189 | No effective key before AlterInter#9010{(0.800) staff:8 NATURAL pitch:3.0}
+2026-05-25 00:11:18,597 INFO [WatashiwaWatashinoKotogaSuki#6]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#9027{(0.465) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=209,y=2769]
+2026-05-25 00:11:18,597 INFO [WatashiwaWatashinoKotogaSuki#6]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#9028{(0.207) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=209,y=2769]
+2026-05-25 00:11:18,602 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:11:18,602 INFO [WatashiwaWatashinoKotogaSuki#6]           PageRhythm.java:199  | {Page#6.1} Time value reused from sheet#1
+2026-05-25 00:11:18,616 INFO [WatashiwaWatashinoKotogaSuki#6]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:11:18,618 INFO [WatashiwaWatashinoKotogaSuki#6]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:11:18,662 INFO [WatashiwaWatashinoKotogaSuki#6]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:11:18,703 INFO [WatashiwaWatashinoKotogaSuki#6]           DataHolder.java:348  | Stored /sheet#6/BINARY.png
+2026-05-25 00:11:19,046 INFO [WatashiwaWatashinoKotogaSuki#6]                Sheet.java:1583 | Stored /sheet#6/sheet#6.xml
+2026-05-25 00:11:19,046 INFO [WatashiwaWatashinoKotogaSuki#6]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:11:19,051 INFO [WatashiwaWatashinoKotogaSuki#6]            SheetStub.java:1655 | Sheet#6 disposed
+2026-05-25 00:11:19,071 INFO [WatashiwaWatashinoKotogaSuki#6]                 Book.java:2050 | End of Stub#6
+2026-05-25 00:11:19,072 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:11:19,233 INFO [WatashiwaWatashinoKotogaSuki#7]            SheetStub.java:1278 | Loaded image #7 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:11:19,233 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:11:19,462 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:11:19,463 INFO [WatashiwaWatashinoKotogaSuki#7]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:11:19,463 INFO [WatashiwaWatashinoKotogaSuki#7]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 476% of needed quorum
+2026-05-25 00:11:19,463 INFO [WatashiwaWatashinoKotogaSuki#7]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-25 00:11:19,463 INFO [WatashiwaWatashinoKotogaSuki#7]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-25 00:11:19,463 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | GRID
+2026-05-25 00:11:19,522 INFO [WatashiwaWatashinoKotogaSuki#7]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:11:19,526 INFO [WatashiwaWatashinoKotogaSuki#7]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-25 00:11:19,566 INFO [WatashiwaWatashinoKotogaSuki#7]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-25 00:11:19,643 INFO [WatashiwaWatashinoKotogaSuki#7]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-25 00:11:19,643 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:11:19,800 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:11:19,815 INFO [WatashiwaWatashinoKotogaSuki#7]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:11:19,821 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:11:21,558 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:11:21,649 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:11:25,102 INFO [WatashiwaWatashinoKotogaSuki#7]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2026-05-25 00:11:25,102 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:11:25,535 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:11:25,585 INFO [WatashiwaWatashinoKotogaSuki#7]        ReductionStep.java:105  | Stems free length median value: 67 pixels, 3.5 interlines
+2026-05-25 00:11:25,587 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:11:25,587 INFO [WatashiwaWatashinoKotogaSuki#7]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:11:25,587 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:11:25,650 WARN [WatashiwaWatashinoKotogaSuki#7]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:11:25,650 INFO [WatashiwaWatashinoKotogaSuki#7]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:11:25,651 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:11:25,651 INFO [WatashiwaWatashinoKotogaSuki#7]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-25 00:11:25,651 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:11:25,656 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:11:25,953 INFO [WatashiwaWatashinoKotogaSuki#7]         SlursBuilder.java:240  | Slurs: 56
+2026-05-25 00:11:25,967 INFO [WatashiwaWatashinoKotogaSuki#7]      SegmentsBuilder.java:155  | Segments: 54
+2026-05-25 00:11:25,971 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:11:26,319 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:11:26,322 INFO [WatashiwaWatashinoKotogaSuki#7]             KeyInter.java:1322 | Key built KeyInter#10318{(0.952) staff:1 KEY_FLAT_2 pitch:-1.5 fifths:-2}
+2026-05-25 00:11:26,327 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#9922{(0.193) staff:4 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=1564]
+2026-05-25 00:11:26,327 INFO [WatashiwaWatashinoKotogaSuki#7]             KeyInter.java:1189 | No effective key before AlterInter#9961{(0.800) staff:3 NATURAL pitch:-3.0}
+2026-05-25 00:11:26,327 INFO [WatashiwaWatashinoKotogaSuki#7]             KeyInter.java:1189 | No effective key before AlterInter#9962{(0.800) staff:4 NATURAL pitch:-1.0}
+2026-05-25 00:11:26,334 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10026{(0.193) staff:5 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=1564]
+2026-05-25 00:11:26,334 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10036{(0.312) staff:6 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2157]
+2026-05-25 00:11:26,335 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10038{(0.138) staff:6 OTTAVA BASSA} at java.awt.Point[x=200,y=2157]
+2026-05-25 00:11:26,335 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10042{(0.139) staff:6 QUINDICESIMA BASSA} at java.awt.Point[x=192,y=2157]
+2026-05-25 00:11:26,335 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10046{(0.218) staff:6 QUINDICESIMA BASSA} at java.awt.Point[x=192,y=2157]
+2026-05-25 00:11:26,340 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10183{(0.312) staff:7 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2157]
+2026-05-25 00:11:26,340 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10184{(0.138) staff:7 OTTAVA ALTA} at java.awt.Point[x=200,y=2157]
+2026-05-25 00:11:26,340 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10186{(0.139) staff:7 QUINDICESIMA ALTA} at java.awt.Point[x=192,y=2157]
+2026-05-25 00:11:26,340 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10187{(0.218) staff:7 QUINDICESIMA ALTA} at java.awt.Point[x=192,y=2157]
+2026-05-25 00:11:26,340 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10210{(0.310) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2790]
+2026-05-25 00:11:26,340 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10214{(0.327) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2790]
+2026-05-25 00:11:26,346 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10287{(0.310) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2790]
+2026-05-25 00:11:26,346 INFO [WatashiwaWatashinoKotogaSuki#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#10288{(0.327) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2790]
+2026-05-25 00:11:26,347 INFO [WatashiwaWatashinoKotogaSuki#7]             KeyInter.java:1189 | No effective key before AlterInter#10307{(0.800) staff:10 NATURAL pitch:1.0}
+2026-05-25 00:11:26,353 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:11:26,353 INFO [WatashiwaWatashinoKotogaSuki#7]           PageRhythm.java:199  | {Page#7.1} Time value reused from sheet#1
+2026-05-25 00:11:26,355 INFO [WatashiwaWatashinoKotogaSuki#7]                Voice.java:257  | Measure{#2} Voice{#6 excess:1/8} too long
+2026-05-25 00:11:26,355 INFO [WatashiwaWatashinoKotogaSuki#7]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2026-05-25 00:11:26,365 INFO [WatashiwaWatashinoKotogaSuki#7]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:11:26,369 INFO [WatashiwaWatashinoKotogaSuki#7]                Voice.java:257  | Measure{#2} Voice{#6 excess:1/8} too long
+2026-05-25 00:11:26,369 INFO [WatashiwaWatashinoKotogaSuki#7]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:11:26,410 INFO [WatashiwaWatashinoKotogaSuki#7]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:11:26,453 INFO [WatashiwaWatashinoKotogaSuki#7]           DataHolder.java:348  | Stored /sheet#7/BINARY.png
+2026-05-25 00:11:26,843 INFO [WatashiwaWatashinoKotogaSuki#7]                Sheet.java:1583 | Stored /sheet#7/sheet#7.xml
+2026-05-25 00:11:26,843 INFO [WatashiwaWatashinoKotogaSuki#7]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:11:26,847 INFO [WatashiwaWatashinoKotogaSuki#7]            SheetStub.java:1655 | Sheet#7 disposed
+2026-05-25 00:11:26,867 INFO [WatashiwaWatashinoKotogaSuki#7]                 Book.java:2050 | End of Stub#7
+2026-05-25 00:11:26,867 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:11:26,952 INFO [WatashiwaWatashinoKotogaSuki#8]            SheetStub.java:1278 | Loaded image #8 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:11:26,952 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:11:27,179 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:11:27,181 INFO [WatashiwaWatashinoKotogaSuki#8]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:11:27,181 INFO [WatashiwaWatashinoKotogaSuki#8]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 409% of needed quorum
+2026-05-25 00:11:27,181 INFO [WatashiwaWatashinoKotogaSuki#8]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-25 00:11:27,181 INFO [WatashiwaWatashinoKotogaSuki#8]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-25 00:11:27,181 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | GRID
+2026-05-25 00:11:27,228 INFO [WatashiwaWatashinoKotogaSuki#8]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:11:27,232 INFO [WatashiwaWatashinoKotogaSuki#8]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-25 00:11:27,261 INFO [WatashiwaWatashinoKotogaSuki#8]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-25 00:11:27,331 INFO [WatashiwaWatashinoKotogaSuki#8]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-25 00:11:27,331 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:11:27,514 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:11:27,530 INFO [WatashiwaWatashinoKotogaSuki#8]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:11:27,535 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:11:29,224 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:11:29,293 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:11:32,272 INFO [WatashiwaWatashinoKotogaSuki#8]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2026-05-25 00:11:32,273 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:11:32,585 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:11:32,639 INFO [WatashiwaWatashinoKotogaSuki#8]        ReductionStep.java:105  | Stems free length median value: 67 pixels, 3.5 interlines
+2026-05-25 00:11:32,642 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:11:32,642 INFO [WatashiwaWatashinoKotogaSuki#8]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:11:32,642 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:11:32,701 WARN [WatashiwaWatashinoKotogaSuki#8]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:11:32,701 INFO [WatashiwaWatashinoKotogaSuki#8]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:11:32,702 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:11:32,702 INFO [WatashiwaWatashinoKotogaSuki#8]                 Page.java:307  | 17 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 4 in system#4, 4 in system#5]
+2026-05-25 00:11:32,702 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:11:32,706 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:11:32,975 INFO [WatashiwaWatashinoKotogaSuki#8]         SlursBuilder.java:240  | Slurs: 54
+2026-05-25 00:11:32,980 INFO [WatashiwaWatashinoKotogaSuki#8]      SegmentsBuilder.java:155  | Segments: 35
+2026-05-25 00:11:32,984 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:11:33,272 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:11:33,273 INFO [WatashiwaWatashinoKotogaSuki#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7962{(0.608) staff:1 OTTAVA ALTA} at java.awt.Point[x=186,y=201]
+2026-05-25 00:11:33,273 INFO [WatashiwaWatashinoKotogaSuki#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8000{(0.421) staff:1 QUINDICESIMA ALTA} at java.awt.Point[x=192,y=374]
+2026-05-25 00:11:33,274 INFO [WatashiwaWatashinoKotogaSuki#8]             KeyInter.java:1189 | No effective key before AlterInter#8088{(0.800) staff:1 NATURAL pitch:4.0}
+2026-05-25 00:11:33,274 INFO [WatashiwaWatashinoKotogaSuki#8]             KeyInter.java:1189 | No effective key before AlterInter#8104{(0.800) staff:1 NATURAL pitch:-3.0}
+2026-05-25 00:11:33,284 INFO [WatashiwaWatashinoKotogaSuki#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8206{(0.223) staff:6 OTTAVA BASSA} at java.awt.Point[x=219,y=2150]
+2026-05-25 00:11:33,284 INFO [WatashiwaWatashinoKotogaSuki#8]             KeyInter.java:1189 | No effective key before AlterInter#8209{(0.800) staff:5 NATURAL pitch:-3.0}
+2026-05-25 00:11:33,284 INFO [WatashiwaWatashinoKotogaSuki#8]             KeyInter.java:1189 | No effective key before AlterInter#8211{(0.800) staff:5 NATURAL pitch:1.0}
+2026-05-25 00:11:33,284 INFO [WatashiwaWatashinoKotogaSuki#8]             KeyInter.java:1189 | No effective key before AlterInter#8251{(0.800) staff:5 NATURAL pitch:-2.0}
+2026-05-25 00:11:33,284 INFO [WatashiwaWatashinoKotogaSuki#8]             KeyInter.java:1189 | No effective key before AlterInter#8227{(0.800) staff:6 NATURAL pitch:-1.0}
+2026-05-25 00:11:33,284 INFO [WatashiwaWatashinoKotogaSuki#8]             KeyInter.java:1189 | No effective key before AlterInter#8228{(0.800) staff:6 NATURAL pitch:-4.0}
+2026-05-25 00:11:33,288 INFO [WatashiwaWatashinoKotogaSuki#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8294{(0.223) staff:7 OTTAVA ALTA} at java.awt.Point[x=219,y=2150]
+2026-05-25 00:11:33,288 INFO [WatashiwaWatashinoKotogaSuki#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8296{(0.654) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2745]
+2026-05-25 00:11:33,288 INFO [WatashiwaWatashinoKotogaSuki#8]             KeyInter.java:1189 | No effective key before AlterInter#8336{(0.800) staff:8 NATURAL pitch:-5.0}
+2026-05-25 00:11:33,293 INFO [WatashiwaWatashinoKotogaSuki#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8356{(0.654) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2745]
+2026-05-25 00:11:33,293 INFO [WatashiwaWatashinoKotogaSuki#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8376{(0.366) staff:9 OTTAVA BASSA} at java.awt.Point[x=1861,y=2930]
+2026-05-25 00:11:33,297 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:11:33,298 INFO [WatashiwaWatashinoKotogaSuki#8]           PageRhythm.java:199  | {Page#8.1} Time value reused from sheet#1
+2026-05-25 00:11:33,308 INFO [WatashiwaWatashinoKotogaSuki#8]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:11:33,308 INFO [WatashiwaWatashinoKotogaSuki#8]       SheetReduction.java:154  | Gutter. Different glyphs 1/2 ArticulationInter#8040{(0.609/0.761) STACCATO} vs EndingInter#7455{(0.592/0.832) staff:3 ENDING}
+2026-05-25 00:11:33,309 INFO [WatashiwaWatashinoKotogaSuki#8]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:11:33,342 INFO [WatashiwaWatashinoKotogaSuki#8]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:11:33,385 INFO [WatashiwaWatashinoKotogaSuki#8]           DataHolder.java:348  | Stored /sheet#8/BINARY.png
+2026-05-25 00:11:33,714 INFO [WatashiwaWatashinoKotogaSuki#8]                Sheet.java:1583 | Stored /sheet#8/sheet#8.xml
+2026-05-25 00:11:33,714 INFO [WatashiwaWatashinoKotogaSuki#8]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:11:33,720 INFO [WatashiwaWatashinoKotogaSuki#8]            SheetStub.java:1655 | Sheet#8 disposed
+2026-05-25 00:11:33,739 INFO [WatashiwaWatashinoKotogaSuki#8]                 Book.java:2050 | End of Stub#8
+2026-05-25 00:11:33,740 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:11:33,757 INFO [WatashiwaWatashinoKotogaSuki#9]            SheetStub.java:1278 | Loaded image #9 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:11:33,757 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:11:33,987 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:11:33,988 INFO [WatashiwaWatashinoKotogaSuki#9]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:11:33,988 INFO [WatashiwaWatashinoKotogaSuki#9]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 441% of needed quorum
+2026-05-25 00:11:33,988 INFO [WatashiwaWatashinoKotogaSuki#9]         ScaleBuilder.java:401  | Normalized black jitter: 10.53 %
+2026-05-25 00:11:33,988 INFO [WatashiwaWatashinoKotogaSuki#9]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,4) beam(10)}
+2026-05-25 00:11:33,988 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | GRID
+2026-05-25 00:11:34,044 INFO [WatashiwaWatashinoKotogaSuki#9]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:11:34,052 INFO [WatashiwaWatashinoKotogaSuki#9]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-25 00:11:34,085 INFO [WatashiwaWatashinoKotogaSuki#9]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-25 00:11:34,178 INFO [WatashiwaWatashinoKotogaSuki#9]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-25 00:11:34,178 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:11:34,321 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:11:34,336 INFO [WatashiwaWatashinoKotogaSuki#9]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:11:34,340 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:11:35,987 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:11:36,064 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:11:39,116 INFO [WatashiwaWatashinoKotogaSuki#9]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6,R:-0.6]}
+2026-05-25 00:11:39,116 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:11:39,410 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:11:39,457 INFO [WatashiwaWatashinoKotogaSuki#9]        ReductionStep.java:105  | Stems free length median value: 67 pixels, 3.5 interlines
+2026-05-25 00:11:39,459 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:11:39,459 INFO [WatashiwaWatashinoKotogaSuki#9]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:11:39,459 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:11:39,519 WARN [WatashiwaWatashinoKotogaSuki#9]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:11:39,519 INFO [WatashiwaWatashinoKotogaSuki#9]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:11:39,520 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:11:39,520 INFO [WatashiwaWatashinoKotogaSuki#9]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-25 00:11:39,520 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:11:39,523 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:11:39,795 INFO [WatashiwaWatashinoKotogaSuki#9]         SlursBuilder.java:240  | Slurs: 60
+2026-05-25 00:11:39,804 INFO [WatashiwaWatashinoKotogaSuki#9]      SegmentsBuilder.java:155  | Segments: 40
+2026-05-25 00:11:39,805 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:11:40,077 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:11:40,077 INFO [WatashiwaWatashinoKotogaSuki#9]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7887{(0.655) staff:1 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=374]
+2026-05-25 00:11:40,078 INFO [WatashiwaWatashinoKotogaSuki#9]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7889{(0.592) staff:1 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=374]
+2026-05-25 00:11:40,078 INFO [WatashiwaWatashinoKotogaSuki#9]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7894{(0.388) staff:2 QUINDICESIMA BASSA} at java.awt.Point[x=194,y=1017]
+2026-05-25 00:11:40,079 INFO [WatashiwaWatashinoKotogaSuki#9]             KeyInter.java:1189 | No effective key before AlterInter#7942{(0.800) staff:1 NATURAL pitch:-4.0}
+2026-05-25 00:11:40,079 INFO [WatashiwaWatashinoKotogaSuki#9]             KeyInter.java:1189 | No effective key before AlterInter#7938{(0.800) staff:2 NATURAL pitch:-4.0}
+2026-05-25 00:11:40,079 INFO [WatashiwaWatashinoKotogaSuki#9]             KeyInter.java:1189 | No effective key before AlterInter#7943{(0.800) staff:2 NATURAL pitch:5.0}
+2026-05-25 00:11:40,082 INFO [WatashiwaWatashinoKotogaSuki#9]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8029{(0.388) staff:3 QUINDICESIMA ALTA} at java.awt.Point[x=194,y=1017]
+2026-05-25 00:11:40,082 INFO [WatashiwaWatashinoKotogaSuki#9]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8033{(0.388) staff:4 QUINDICESIMA BASSA} at java.awt.Point[x=194,y=1585]
+2026-05-25 00:11:40,085 INFO [WatashiwaWatashinoKotogaSuki#9]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#8068{(0.388) staff:5 QUINDICESIMA ALTA} at java.awt.Point[x=194,y=1585]
+2026-05-25 00:11:40,085 INFO [WatashiwaWatashinoKotogaSuki#9]             KeyInter.java:1189 | No effective key before AlterInter#8121{(0.800) staff:5 NATURAL pitch:-3.0}
+2026-05-25 00:11:40,085 INFO [WatashiwaWatashinoKotogaSuki#9]             KeyInter.java:1189 | No effective key before AlterInter#8144{(0.800) staff:6 NATURAL pitch:-5.0}
+2026-05-25 00:11:40,090 INFO [WatashiwaWatashinoKotogaSuki#9]             KeyInter.java:1189 | No effective key before AlterInter#8228{(0.800) staff:7 NATURAL pitch:-2.0}
+2026-05-25 00:11:40,096 INFO [WatashiwaWatashinoKotogaSuki#9]             KeyInter.java:1189 | No effective key before AlterInter#8243{(0.800) staff:10 NATURAL pitch:-4.0}
+2026-05-25 00:11:40,096 INFO [WatashiwaWatashinoKotogaSuki#9]             KeyInter.java:1189 | No effective key before AlterInter#8247{(0.800) staff:10 NATURAL pitch:3.0}
+2026-05-25 00:11:40,099 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:11:40,099 INFO [WatashiwaWatashinoKotogaSuki#9]           PageRhythm.java:199  | {Page#9.1} Time value reused from sheet#1
+2026-05-25 00:11:40,100 INFO [WatashiwaWatashinoKotogaSuki#9]                Voice.java:257  | Measure{#2} Voice{#1 excess:1/8} too long
+2026-05-25 00:11:40,100 INFO [WatashiwaWatashinoKotogaSuki#9]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2026-05-25 00:11:40,109 INFO [WatashiwaWatashinoKotogaSuki#9]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:11:40,110 INFO [WatashiwaWatashinoKotogaSuki#9]                Voice.java:257  | Measure{#2} Voice{#1 excess:1/8} too long
+2026-05-25 00:11:40,110 INFO [WatashiwaWatashinoKotogaSuki#9]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:11:40,148 INFO [WatashiwaWatashinoKotogaSuki#9]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:11:40,190 INFO [WatashiwaWatashinoKotogaSuki#9]           DataHolder.java:348  | Stored /sheet#9/BINARY.png
+2026-05-25 00:11:40,516 INFO [WatashiwaWatashinoKotogaSuki#9]                Sheet.java:1583 | Stored /sheet#9/sheet#9.xml
+2026-05-25 00:11:40,516 INFO [WatashiwaWatashinoKotogaSuki#9]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:11:40,522 INFO [WatashiwaWatashinoKotogaSuki#9]            SheetStub.java:1655 | Sheet#9 disposed
+2026-05-25 00:11:40,542 INFO [WatashiwaWatashinoKotogaSuki#9]                 Book.java:2050 | End of Stub#9
+2026-05-25 00:11:40,542 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:11:40,688 INFO [WatashiwaWatashinoKotogaSuki#10]            SheetStub.java:1278 | Loaded image #10 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:11:40,688 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:11:40,926 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:11:40,928 INFO [WatashiwaWatashinoKotogaSuki#10]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:11:40,928 INFO [WatashiwaWatashinoKotogaSuki#10]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 338% of needed quorum
+2026-05-25 00:11:40,928 INFO [WatashiwaWatashinoKotogaSuki#10]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-25 00:11:40,928 INFO [WatashiwaWatashinoKotogaSuki#10]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-25 00:11:40,928 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | GRID
+2026-05-25 00:11:40,983 INFO [WatashiwaWatashinoKotogaSuki#10]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:11:40,989 INFO [WatashiwaWatashinoKotogaSuki#10]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-25 00:11:41,021 INFO [WatashiwaWatashinoKotogaSuki#10]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-25 00:11:41,093 INFO [WatashiwaWatashinoKotogaSuki#10]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-25 00:11:41,093 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:11:41,223 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:11:41,239 INFO [WatashiwaWatashinoKotogaSuki#10]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:11:41,245 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:11:42,976 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:11:43,067 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:11:46,326 INFO [WatashiwaWatashinoKotogaSuki#10]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6,R:-0.5]}
+2026-05-25 00:11:46,327 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:11:46,752 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:11:46,823 INFO [WatashiwaWatashinoKotogaSuki#10]        ReductionStep.java:105  | Stems free length median value: 68 pixels, 3.6 interlines
+2026-05-25 00:11:46,826 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:11:46,826 INFO [WatashiwaWatashinoKotogaSuki#10]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:11:46,826 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:11:46,888 WARN [WatashiwaWatashinoKotogaSuki#10]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:11:46,888 INFO [WatashiwaWatashinoKotogaSuki#10]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:11:46,889 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:11:46,891 INFO [WatashiwaWatashinoKotogaSuki#10]                 Page.java:307  | 19 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 3 in system#5]
+2026-05-25 00:11:46,891 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:11:46,894 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:11:47,186 INFO [WatashiwaWatashinoKotogaSuki#10]         SlursBuilder.java:240  | Slurs: 92
+2026-05-25 00:11:47,206 INFO [WatashiwaWatashinoKotogaSuki#10]      SegmentsBuilder.java:155  | Segments: 54
+2026-05-25 00:11:47,208 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:11:47,522 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:11:47,524 INFO [WatashiwaWatashinoKotogaSuki#10]             KeyInter.java:1189 | No effective key before AlterInter#9376{(0.630) staff:2 NATURAL pitch:-4.0}
+2026-05-25 00:11:47,527 INFO [WatashiwaWatashinoKotogaSuki#10]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#9409{(0.388) staff:4 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=1665]
+2026-05-25 00:11:47,527 INFO [WatashiwaWatashinoKotogaSuki#10]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#9411{(0.243) staff:4 QUINDICESIMA BASSA} at java.awt.Point[x=194,y=1665]
+2026-05-25 00:11:47,528 INFO [WatashiwaWatashinoKotogaSuki#10]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#9418{(0.385) staff:4 OTTAVA BASSA} at java.awt.Point[x=201,y=1665]
+2026-05-25 00:11:47,533 INFO [WatashiwaWatashinoKotogaSuki#10]             KeyInter.java:1189 | No effective key before AlterInter#9527{(0.800) staff:5 NATURAL pitch:-2.0}
+2026-05-25 00:11:47,533 INFO [WatashiwaWatashinoKotogaSuki#10]             KeyInter.java:1189 | No effective key before AlterInter#9538{(0.800) staff:5 NATURAL pitch:-3.0}
+2026-05-25 00:11:47,533 INFO [WatashiwaWatashinoKotogaSuki#10]             KeyInter.java:1189 | No effective key before AlterInter#9546{(0.800) staff:5 NATURAL pitch:3.0}
+2026-05-25 00:11:47,533 INFO [WatashiwaWatashinoKotogaSuki#10]             KeyInter.java:1189 | No effective key before AlterInter#9548{(0.800) staff:5 NATURAL pitch:0.0}
+2026-05-25 00:11:47,533 INFO [WatashiwaWatashinoKotogaSuki#10]             KeyInter.java:1189 | No effective key before AlterInter#9521{(0.800) staff:6 NATURAL pitch:-1.0}
+2026-05-25 00:11:47,533 INFO [WatashiwaWatashinoKotogaSuki#10]             KeyInter.java:1189 | No effective key before AlterInter#9545{(0.800) staff:6 NATURAL pitch:-2.0}
+2026-05-25 00:11:47,533 INFO [WatashiwaWatashinoKotogaSuki#10]             KeyInter.java:1189 | No effective key before AlterInter#9550{(0.800) staff:6 NATURAL pitch:-5.0}
+2026-05-25 00:11:47,547 INFO [WatashiwaWatashinoKotogaSuki#10]             KeyInter.java:1189 | No effective key before AlterInter#9643{(0.800) staff:9 NATURAL pitch:-3.0}
+2026-05-25 00:11:47,547 INFO [WatashiwaWatashinoKotogaSuki#10]             KeyInter.java:1189 | No effective key before AlterInter#9644{(0.800) staff:10 NATURAL pitch:0.0}
+2026-05-25 00:11:47,553 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:11:47,553 INFO [WatashiwaWatashinoKotogaSuki#10]           PageRhythm.java:199  | {Page#10.1} Time value reused from sheet#1
+2026-05-25 00:11:47,557 INFO [WatashiwaWatashinoKotogaSuki#10]                Voice.java:257  | Measure{#9} Voice{#5 excess:1/8} too long
+2026-05-25 00:11:47,557 INFO [WatashiwaWatashinoKotogaSuki#10]                Voice.java:257  | Measure{#9} Voice{#2 excess:1/8} too long
+2026-05-25 00:11:47,557 INFO [WatashiwaWatashinoKotogaSuki#10]          StackRhythm.java:224  | S3 MeasureStack#9 no correct rhythm
+2026-05-25 00:11:47,563 INFO [WatashiwaWatashinoKotogaSuki#10]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:11:47,566 INFO [WatashiwaWatashinoKotogaSuki#10]                Voice.java:257  | Measure{#9} Voice{#2 excess:1/8} too long
+2026-05-25 00:11:47,566 INFO [WatashiwaWatashinoKotogaSuki#10]                Voice.java:257  | Measure{#9} Voice{#5 excess:1/8} too long
+2026-05-25 00:11:47,566 INFO [WatashiwaWatashinoKotogaSuki#10]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:11:47,610 INFO [WatashiwaWatashinoKotogaSuki#10]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:11:47,654 INFO [WatashiwaWatashinoKotogaSuki#10]           DataHolder.java:348  | Stored /sheet#10/BINARY.png
+2026-05-25 00:11:48,042 INFO [WatashiwaWatashinoKotogaSuki#10]                Sheet.java:1583 | Stored /sheet#10/sheet#10.xml
+2026-05-25 00:11:48,042 INFO [WatashiwaWatashinoKotogaSuki#10]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:11:48,048 INFO [WatashiwaWatashinoKotogaSuki#10]            SheetStub.java:1655 | Sheet#10 disposed
+2026-05-25 00:11:48,068 INFO [WatashiwaWatashinoKotogaSuki#10]                 Book.java:2050 | End of Stub#10
+2026-05-25 00:11:48,068 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | LOAD
+2026-05-25 00:11:48,090 INFO [WatashiwaWatashinoKotogaSuki#11]            SheetStub.java:1278 | Loaded image #11 2479x3508 from D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki.pdf
+2026-05-25 00:11:48,090 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | BINARY
+2026-05-25 00:11:48,308 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | SCALE
+2026-05-25 00:11:48,309 INFO [WatashiwaWatashinoKotogaSuki#11]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-25 00:11:48,309 INFO [WatashiwaWatashinoKotogaSuki#11]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 335% of needed quorum
+2026-05-25 00:11:48,309 INFO [WatashiwaWatashinoKotogaSuki#11]         ScaleBuilder.java:401  | Normalized black jitter: 10.53 %
+2026-05-25 00:11:48,309 INFO [WatashiwaWatashinoKotogaSuki#11]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,4) beam(10)}
+2026-05-25 00:11:48,309 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | GRID
+2026-05-25 00:11:48,325 INFO [WatashiwaWatashinoKotogaSuki#11]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-25 00:11:48,326 INFO [WatashiwaWatashinoKotogaSuki#11]    ClustersRetriever.java:326  | Retrieved raw line clusters: 2 of sizes [5] with interline(19,19,20)
+2026-05-25 00:11:48,329 INFO [WatashiwaWatashinoKotogaSuki#11]            PeakGraph.java:310  | Systems: #1[1, 2]
+2026-05-25 00:11:48,369 INFO [WatashiwaWatashinoKotogaSuki#11]        SystemManager.java:779  | 1 part along 1 system
+2026-05-25 00:11:48,369 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | HEADERS
+2026-05-25 00:11:48,398 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-25 00:11:48,412 INFO [WatashiwaWatashinoKotogaSuki#11]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-25 00:11:48,413 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | BEAMS
+2026-05-25 00:11:49,730 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | LEDGERS
+2026-05-25 00:11:49,745 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | HEADS
+2026-05-25 00:11:50,148 INFO [WatashiwaWatashinoKotogaSuki#11]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-25 00:11:50,149 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | STEMS
+2026-05-25 00:11:50,178 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | REDUCTION
+2026-05-25 00:11:50,184 INFO [WatashiwaWatashinoKotogaSuki#11]        ReductionStep.java:105  | Stems free length median value: 145 pixels, 7.6 interlines
+2026-05-25 00:11:50,184 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-25 00:11:50,184 INFO [WatashiwaWatashinoKotogaSuki#11]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-25 00:11:50,184 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | TEXTS
+2026-05-25 00:11:50,211 WARN [WatashiwaWatashinoKotogaSuki#11]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-25 00:11:50,211 INFO [WatashiwaWatashinoKotogaSuki#11]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-25 00:11:50,212 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | MEASURES
+2026-05-25 00:11:50,212 INFO [WatashiwaWatashinoKotogaSuki#11]                 Page.java:307  | 2 raw measures: [2 in system#1]
+2026-05-25 00:11:50,212 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | CHORDS
+2026-05-25 00:11:50,212 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | CURVES
+2026-05-25 00:11:50,386 INFO [WatashiwaWatashinoKotogaSuki#11]         SlursBuilder.java:240  | Slurs: 13
+2026-05-25 00:11:50,387 INFO [WatashiwaWatashinoKotogaSuki#11]      SegmentsBuilder.java:155  | Segments: 8
+2026-05-25 00:11:50,387 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | SYMBOLS
+2026-05-25 00:11:50,520 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | LINKS
+2026-05-25 00:11:50,522 INFO [WatashiwaWatashinoKotogaSuki#11]             KeyInter.java:1189 | No effective key before AlterInter#902{(0.800) staff:1 NATURAL pitch:3.0}
+2026-05-25 00:11:50,522 INFO [WatashiwaWatashinoKotogaSuki#11]             KeyInter.java:1189 | No effective key before AlterInter#941{(0.706) staff:1 NATURAL pitch:2.0}
+2026-05-25 00:11:50,522 INFO [WatashiwaWatashinoKotogaSuki#11]             KeyInter.java:1189 | No effective key before AlterInter#901{(0.800) staff:2 NATURAL pitch:-2.0}
+2026-05-25 00:11:50,525 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | RHYTHMS
+2026-05-25 00:11:50,525 INFO [WatashiwaWatashinoKotogaSuki#11]           PageRhythm.java:199  | {Page#11.1} Time value reused from sheet#1
+2026-05-25 00:11:50,527 INFO [WatashiwaWatashinoKotogaSuki#11]       StepMonitoring.java:98   | PAGE
+2026-05-25 00:11:50,527 INFO [WatashiwaWatashinoKotogaSuki#11]                 Book.java:2584 | Book{WatashiwaWatashinoKotogaSuki} storing
+2026-05-25 00:11:50,552 INFO [WatashiwaWatashinoKotogaSuki#11]                 Book.java:2565 | Stored /book.xml
+2026-05-25 00:11:50,587 INFO [WatashiwaWatashinoKotogaSuki#11]           DataHolder.java:348  | Stored /sheet#11/BINARY.png
+2026-05-25 00:11:50,626 INFO [WatashiwaWatashinoKotogaSuki#11]                Sheet.java:1583 | Stored /sheet#11/sheet#11.xml
+2026-05-25 00:11:50,626 INFO [WatashiwaWatashinoKotogaSuki#11]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.omr
+2026-05-25 00:11:50,633 INFO [WatashiwaWatashinoKotogaSuki#11]            SheetStub.java:1655 | Sheet#11 disposed
+2026-05-25 00:11:50,651 INFO [WatashiwaWatashinoKotogaSuki#11]                 Book.java:2050 | End of Stub#11
+2026-05-25 00:11:50,651 INFO [WatashiwaWatashinoKotogaSuki]                 Book.java:2057 | End of Book{WatashiwaWatashinoKotogaSuki}
+2026-05-25 00:11:50,903 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-05-25 00:11:51,039 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#2/sheet#2.xml
+2026-05-25 00:11:51,185 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#3/sheet#3.xml
+2026-05-25 00:11:51,332 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#4/sheet#4.xml
+2026-05-25 00:11:51,472 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#5/sheet#5.xml
+2026-05-25 00:11:51,613 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#6/sheet#6.xml
+2026-05-25 00:11:51,759 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#7/sheet#7.xml
+2026-05-25 00:11:51,870 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#8/sheet#8.xml
+2026-05-25 00:11:51,987 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#9/sheet#9.xml
+2026-05-25 00:11:52,109 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#10/sheet#10.xml
+2026-05-25 00:11:52,189 INFO [WatashiwaWatashinoKotogaSuki]            SheetStub.java:1000 | Loaded /sheet#11/sheet#11.xml
+2026-05-25 00:11:52,390 INFO [WatashiwaWatashinoKotogaSuki]      PartwiseBuilder.java:2706 | Exporting sheet(s): [#1#2#3#4#5#6#7#8#9#10#11]
+2026-05-25 00:11:52,620 INFO [WatashiwaWatashinoKotogaSuki]        ScoreExporter.java:164  | Score WatashiwaWatashinoKotogaSuki exported to D:\Program\Python\Piano\WatashiwaWatashinoKotogaSuki_Audiveris\WatashiwaWatashinoKotogaSuki.mxl
+2026-05-25 00:11:52,680 INFO [WatashiwaWatashinoKotogaSuki]                Score.java:181  | Closing {Score 1}

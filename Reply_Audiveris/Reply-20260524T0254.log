@@ -1,0 +1,910 @@
+2026-05-24 02:54:42,653 INFO [Reply]                 Book.java:560  | 10 sheets in D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:54:42,795 INFO []                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:54:42,795 INFO []                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:54:42,801 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1#2#3#4#5#6#7#8#9#10]
+2026-05-24 02:54:42,802 INFO [Reply#1]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:54:43,219 INFO [Reply#1]            SheetStub.java:1278 | Loaded image #1 2479x3508 from D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:54:43,224 INFO [Reply#1]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:54:43,591 INFO [Reply#1]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:54:43,613 INFO [Reply#1]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-24 02:54:43,614 INFO [Reply#1]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 472% of needed quorum
+2026-05-24 02:54:43,614 INFO [Reply#1]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-24 02:54:43,614 INFO [Reply#1]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-24 02:54:43,616 INFO [Reply#1]       StepMonitoring.java:98   | GRID
+2026-05-24 02:54:43,968 INFO [Reply#1]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:54:44,031 INFO [Reply#1]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-24 02:54:44,249 INFO [Reply#1]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-24 02:54:44,511 INFO [Reply#1]        SystemManager.java:134  | Indentation detected for system #1
+2026-05-24 02:54:44,512 INFO [Reply#1]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-24 02:54:44,513 INFO [Reply#1]                 Book.java:543  | Created scores: [{Score 1}]
+2026-05-24 02:54:44,514 INFO [Reply#1]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:54:45,547 INFO [Reply#1]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:54:45,588 INFO [Reply#1]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:54:45,648 INFO [Reply#1]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:54:48,724 INFO [Reply#1]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:54:48,982 INFO [Reply#1]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:54:53,316 INFO [Reply#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.5,R:-0.5] NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2026-05-24 02:54:53,316 INFO [Reply#1]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:54:53,974 INFO [Reply#1]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:54:54,107 INFO [Reply#1]        ReductionStep.java:105  | Stems free length median value: 67 pixels, 3.5 interlines
+2026-05-24 02:54:54,113 INFO [Reply#1]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:54:54,113 INFO [Reply#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:54:54,114 INFO [Reply#1]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:54:54,247 WARN [Reply#1]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:54:54,248 INFO [Reply#1]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:54:54,258 INFO [Reply#1]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:54:54,267 INFO [Reply#1]                 Page.java:307  | 19 raw measures: [3 in system#1, 3 in system#2, 4 in system#3, 4 in system#4, 5 in system#5]
+2026-05-24 02:54:54,268 INFO [Reply#1]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:54:54,295 INFO [Reply#1]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:54:55,182 INFO [Reply#1]         SlursBuilder.java:240  | Slurs: 6
+2026-05-24 02:54:55,263 INFO [Reply#1]      SegmentsBuilder.java:155  | Segments: 35
+2026-05-24 02:54:55,301 INFO [Reply#1]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:54:56,236 INFO [Reply#1]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:54:56,279 INFO [Reply#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6306{(0.686) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2759]
+2026-05-24 02:54:56,281 INFO [Reply#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6308{(0.780) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2758]
+2026-05-24 02:54:56,281 INFO [Reply#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6311{(0.691) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2759]
+2026-05-24 02:54:56,282 INFO [Reply#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6313{(0.349) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2758]
+2026-05-24 02:54:56,283 INFO [Reply#1]             KeyInter.java:1189 | No effective key before AlterInter#6322{(0.800) staff:7 NATURAL pitch:2.0}
+2026-05-24 02:54:56,283 INFO [Reply#1]             KeyInter.java:1189 | No effective key before AlterInter#6328{(0.800) staff:7 NATURAL pitch:2.0}
+2026-05-24 02:54:56,284 INFO [Reply#1]             KeyInter.java:1189 | No effective key before AlterInter#6332{(0.800) staff:7 NATURAL pitch:-5.0}
+2026-05-24 02:54:56,285 INFO [Reply#1]             KeyInter.java:1189 | No effective key before AlterInter#6330{(0.800) staff:8 NATURAL pitch:-3.0}
+2026-05-24 02:54:56,296 INFO [Reply#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6340{(0.686) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2759]
+2026-05-24 02:54:56,296 INFO [Reply#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6341{(0.780) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2758]
+2026-05-24 02:54:56,296 INFO [Reply#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6342{(0.691) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2759]
+2026-05-24 02:54:56,296 INFO [Reply#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6343{(0.349) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2758]
+2026-05-24 02:54:56,310 INFO [Reply#1]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:54:56,415 INFO [Reply#1]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:54:56,428 INFO [Reply#1]                 Book.java:2584 | Book{Reply} storing
+2026-05-24 02:54:56,494 INFO [Reply#1]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:54:56,662 INFO [Reply#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-05-24 02:54:57,451 INFO [Reply#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-05-24 02:54:57,452 INFO [Reply#1]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:54:57,458 INFO [Reply#1]            SheetStub.java:1655 | Sheet#1 disposed
+2026-05-24 02:54:57,496 INFO [Reply#1]                 Book.java:2050 | End of Stub#1
+2026-05-24 02:54:57,497 INFO [Reply#2]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:54:57,717 INFO [Reply#2]            SheetStub.java:1278 | Loaded image #2 2479x3508 from D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:54:57,719 INFO [Reply#2]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:54:58,092 INFO [Reply#2]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:54:58,107 INFO [Reply#2]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-24 02:54:58,108 INFO [Reply#2]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 285% of needed quorum
+2026-05-24 02:54:58,109 INFO [Reply#2]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-24 02:54:58,109 INFO [Reply#2]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-24 02:54:58,109 INFO [Reply#2]       StepMonitoring.java:98   | GRID
+2026-05-24 02:54:58,229 INFO [Reply#2]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:54:58,245 INFO [Reply#2]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-24 02:54:58,314 INFO [Reply#2]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-24 02:54:58,442 INFO [Reply#2]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-24 02:54:58,443 INFO [Reply#2]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:54:58,645 INFO [Reply#2]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:54:58,675 INFO [Reply#2]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:54:58,683 INFO [Reply#2]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:55:01,153 INFO [Reply#2]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:55:01,257 INFO [Reply#2]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:55:05,308 INFO [Reply#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.5,R:-0.4] NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2026-05-24 02:55:05,310 INFO [Reply#2]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:55:05,644 INFO [Reply#2]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:55:05,692 INFO [Reply#2]        ReductionStep.java:105  | Stems free length median value: 58 pixels, 3.1 interlines
+2026-05-24 02:55:05,696 INFO [Reply#2]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:55:05,696 INFO [Reply#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:55:05,696 INFO [Reply#2]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:55:05,773 WARN [Reply#2]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:55:05,773 INFO [Reply#2]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:55:05,776 INFO [Reply#2]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:55:05,777 INFO [Reply#2]                 Page.java:307  | 22 raw measures: [5 in system#1, 5 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-24 02:55:05,778 INFO [Reply#2]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:55:05,785 INFO [Reply#2]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:55:06,293 INFO [Reply#2]         SlursBuilder.java:240  | Slurs: 17
+2026-05-24 02:55:06,332 INFO [Reply#2]      SegmentsBuilder.java:155  | Segments: 19
+2026-05-24 02:55:06,341 INFO [Reply#2]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:55:06,689 INFO [Reply#2]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:55:06,697 INFO [Reply#2]             KeyInter.java:1189 | No effective key before AlterInter#5632{(0.800) staff:4 NATURAL pitch:-4.0}
+2026-05-24 02:55:06,697 INFO [Reply#2]             KeyInter.java:1189 | No effective key before AlterInter#5633{(0.800) staff:4 NATURAL pitch:3.0}
+2026-05-24 02:55:06,704 INFO [Reply#2]             KeyInter.java:1189 | No effective key before AlterInter#5657{(0.800) staff:6 NATURAL pitch:-3.0}
+2026-05-24 02:55:06,711 INFO [Reply#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5663{(0.216) staff:8 VENTIDUESIMA BASSA} at java.awt.Point[x=192,y=2884]
+2026-05-24 02:55:06,715 INFO [Reply#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5677{(0.216) staff:9 VENTIDUESIMA ALTA} at java.awt.Point[x=192,y=2884]
+2026-05-24 02:55:06,722 INFO [Reply#2]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:55:06,723 INFO [Reply#2]           PageRhythm.java:199  | {Page#2.1} Time value reused from sheet#1
+2026-05-24 02:55:06,729 INFO [Reply#2]        MeasureRhythm.java:1044 | Measure{#8} No timeOffset for HeadChordInter#5112{(0.957/0.957) staff:4 slot#3 dur:1/8}
+2026-05-24 02:55:06,730 INFO [Reply#2]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#5113{(0.947/0.947) staff:4 slot#4 dur:1/8}
+2026-05-24 02:55:06,731 INFO [Reply#2]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/2} too long
+2026-05-24 02:55:06,731 INFO [Reply#2]          StackRhythm.java:224  | S2 MeasureStack#8 no correct rhythm
+2026-05-24 02:55:06,747 INFO [Reply#2]        MeasureRhythm.java:1044 | Measure{#18} No timeOffset for HeadChordInter#5208{(0.945/0.945) staff:7 slot#5 dur:1/8}
+2026-05-24 02:55:06,747 INFO [Reply#2]          StackRhythm.java:224  | S4 MeasureStack#18 no correct rhythm
+2026-05-24 02:55:06,751 INFO [Reply#2]        MeasureRhythm.java:1044 | Measure{#20} No timeOffset for HeadChordInter#5246{(0.943/0.943) staff:9 slot#5 dur:1/8}
+2026-05-24 02:55:06,751 INFO [Reply#2]          StackRhythm.java:224  | S5 MeasureStack#20 no correct rhythm
+2026-05-24 02:55:06,753 INFO [Reply#2]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:55:06,753 INFO [Reply#2]       SheetReduction.java:154  | Gutter. Different glyphs 1/2 ArticulationInter#5591{(0.798/0.831) STACCATO} vs EndingInter#5377{(0.613/0.843) staff:3 ENDING}
+2026-05-24 02:55:06,756 INFO [Reply#2]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/2} too long
+2026-05-24 02:55:06,756 INFO [Reply#2]                 Book.java:2584 | Book{Reply} storing
+2026-05-24 02:55:06,807 INFO [Reply#2]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:55:06,867 INFO [Reply#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2026-05-24 02:55:07,241 INFO [Reply#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-05-24 02:55:07,241 INFO [Reply#2]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:55:07,247 INFO [Reply#2]            SheetStub.java:1655 | Sheet#2 disposed
+2026-05-24 02:55:07,270 INFO [Reply#2]                 Book.java:2050 | End of Stub#2
+2026-05-24 02:55:07,271 INFO [Reply#3]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:55:07,514 INFO [Reply#3]            SheetStub.java:1278 | Loaded image #3 2479x3508 from D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:55:07,515 INFO [Reply#3]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:55:07,844 INFO [Reply#3]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:55:07,846 INFO [Reply#3]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-24 02:55:07,847 INFO [Reply#3]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 354% of needed quorum
+2026-05-24 02:55:07,847 INFO [Reply#3]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-24 02:55:07,847 INFO [Reply#3]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-24 02:55:07,847 INFO [Reply#3]       StepMonitoring.java:98   | GRID
+2026-05-24 02:55:07,922 INFO [Reply#3]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:55:07,932 INFO [Reply#3]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-24 02:55:07,985 INFO [Reply#3]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-24 02:55:08,095 INFO [Reply#3]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-24 02:55:08,096 INFO [Reply#3]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:55:08,461 INFO [Reply#3]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:55:08,490 INFO [Reply#3]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:55:08,496 INFO [Reply#3]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:55:11,009 INFO [Reply#3]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:55:11,083 INFO [Reply#3]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:55:15,593 INFO [Reply#3]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:-0.3] NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-24 02:55:15,594 INFO [Reply#3]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:55:16,245 INFO [Reply#3]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:55:16,384 INFO [Reply#3]        ReductionStep.java:105  | Stems free length median value: 58 pixels, 3.1 interlines
+2026-05-24 02:55:16,389 INFO [Reply#3]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:55:16,390 INFO [Reply#3]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:55:16,390 INFO [Reply#3]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:55:16,507 WARN [Reply#3]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:55:16,509 INFO [Reply#3]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:55:16,510 INFO [Reply#3]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:55:16,511 INFO [Reply#3]                 Page.java:307  | 19 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 3 in system#5]
+2026-05-24 02:55:16,513 INFO [Reply#3]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:55:16,519 INFO [Reply#3]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:55:17,087 INFO [Reply#3]         SlursBuilder.java:240  | Slurs: 40
+2026-05-24 02:55:17,126 INFO [Reply#3]      SegmentsBuilder.java:155  | Segments: 26
+2026-05-24 02:55:17,139 INFO [Reply#3]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:55:17,709 INFO [Reply#3]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:55:17,711 INFO [Reply#3]             KeyInter.java:1322 | Key built KeyInter#8027{(0.973) staff:1 KEY_SHARP_3 pitch:-3.1 fifths:3}
+2026-05-24 02:55:17,712 INFO [Reply#3]             KeyInter.java:1322 | Key built KeyInter#8031{(0.973) staff:2 KEY_SHARP_3 pitch:-1.0 fifths:3}
+2026-05-24 02:55:17,747 INFO [Reply#3]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:55:17,748 INFO [Reply#3]           PageRhythm.java:199  | {Page#3.1} Time value reused from sheet#1
+2026-05-24 02:55:17,773 INFO [Reply#3]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:55:17,774 INFO [Reply#3]       SheetReduction.java:154  | Gutter. Different glyphs 1/2 ArticulationInter#7757{(0.542/0.611) ACCENT} vs EndingInter#7466{(0.564/0.846) staff:3 ENDING}
+2026-05-24 02:55:17,774 INFO [Reply#3]       SheetReduction.java:154  | Gutter. Different glyphs 1/2 ArticulationInter#7758{(0.410/0.557) STACCATO} vs EndingInter#7466{(0.564/0.846) staff:3 ENDING}
+2026-05-24 02:55:17,774 INFO [Reply#3]       SheetReduction.java:154  | Gutter. Different glyphs 1/2 ArticulationInter#7759{(0.733/0.823) STACCATO} vs EndingInter#7466{(0.564/0.846) staff:3 ENDING}
+2026-05-24 02:55:17,776 INFO [Reply#3]                 Book.java:2584 | Book{Reply} storing
+2026-05-24 02:55:17,832 INFO [Reply#3]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:55:17,887 INFO [Reply#3]           DataHolder.java:348  | Stored /sheet#3/BINARY.png
+2026-05-24 02:55:18,316 INFO [Reply#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-05-24 02:55:18,316 INFO [Reply#3]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:55:18,322 INFO [Reply#3]            SheetStub.java:1655 | Sheet#3 disposed
+2026-05-24 02:55:18,345 INFO [Reply#3]                 Book.java:2050 | End of Stub#3
+2026-05-24 02:55:18,346 INFO [Reply#4]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:55:18,568 INFO [Reply#4]            SheetStub.java:1278 | Loaded image #4 2479x3508 from D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:55:18,569 INFO [Reply#4]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:55:18,911 INFO [Reply#4]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:55:18,914 INFO [Reply#4]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-24 02:55:18,915 INFO [Reply#4]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 325% of needed quorum
+2026-05-24 02:55:18,916 INFO [Reply#4]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-24 02:55:18,916 INFO [Reply#4]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-24 02:55:18,916 INFO [Reply#4]       StepMonitoring.java:98   | GRID
+2026-05-24 02:55:18,990 INFO [Reply#4]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:55:19,000 INFO [Reply#4]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-24 02:55:19,047 INFO [Reply#4]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-24 02:55:19,166 INFO [Reply#4]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-24 02:55:19,167 INFO [Reply#4]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:55:19,667 INFO [Reply#4]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:55:19,697 INFO [Reply#4]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:55:19,706 INFO [Reply#4]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:55:22,286 INFO [Reply#4]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:55:22,364 INFO [Reply#4]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:55:26,915 INFO [Reply#4]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:-0.5] NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-24 02:55:26,915 INFO [Reply#4]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:55:27,387 INFO [Reply#4]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:55:27,483 INFO [Reply#4]        ReductionStep.java:105  | Stems free length median value: 58 pixels, 3.1 interlines
+2026-05-24 02:55:27,486 INFO [Reply#4]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:55:27,487 INFO [Reply#4]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:55:27,488 INFO [Reply#4]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:55:27,573 WARN [Reply#4]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:55:27,573 INFO [Reply#4]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:55:27,575 INFO [Reply#4]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:55:27,577 INFO [Reply#4]                 Page.java:307  | 19 raw measures: [3 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-24 02:55:27,578 INFO [Reply#4]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:55:27,583 INFO [Reply#4]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:55:28,132 INFO [Reply#4]         SlursBuilder.java:240  | Slurs: 28
+2026-05-24 02:55:28,154 INFO [Reply#4]      SegmentsBuilder.java:155  | Segments: 25
+2026-05-24 02:55:28,160 INFO [Reply#4]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:55:28,602 INFO [Reply#4]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:55:28,634 INFO [Reply#4]             KeyInter.java:1322 | Key built KeyInter#7729{(0.973) staff:9 KEY_CANCEL pitch:-3.0 fifths:null}
+2026-05-24 02:55:28,635 INFO [Reply#4]             KeyInter.java:1322 | Key built KeyInter#7733{(0.973) staff:10 KEY_CANCEL pitch:-1.0 fifths:null}
+2026-05-24 02:55:28,643 INFO [Reply#4]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:55:28,643 INFO [Reply#4]           PageRhythm.java:199  | {Page#4.1} Time value reused from sheet#1
+2026-05-24 02:55:28,662 INFO [Reply#4]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:55:28,664 INFO [Reply#4]                 Book.java:2584 | Book{Reply} storing
+2026-05-24 02:55:28,720 INFO [Reply#4]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:55:28,777 INFO [Reply#4]           DataHolder.java:348  | Stored /sheet#4/BINARY.png
+2026-05-24 02:55:29,180 INFO [Reply#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-05-24 02:55:29,180 INFO [Reply#4]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:55:29,188 INFO [Reply#4]            SheetStub.java:1655 | Sheet#4 disposed
+2026-05-24 02:55:29,212 INFO [Reply#4]                 Book.java:2050 | End of Stub#4
+2026-05-24 02:55:29,213 INFO [Reply#5]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:55:29,319 INFO [Reply#5]            SheetStub.java:1278 | Loaded image #5 2479x3508 from D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:55:29,320 INFO [Reply#5]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:55:29,670 INFO [Reply#5]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:55:29,673 INFO [Reply#5]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-24 02:55:29,674 INFO [Reply#5]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 387% of needed quorum
+2026-05-24 02:55:29,674 INFO [Reply#5]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-24 02:55:29,674 INFO [Reply#5]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-24 02:55:29,674 INFO [Reply#5]       StepMonitoring.java:98   | GRID
+2026-05-24 02:55:29,741 INFO [Reply#5]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:55:29,750 INFO [Reply#5]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-24 02:55:29,788 INFO [Reply#5]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-24 02:55:29,892 INFO [Reply#5]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-24 02:55:29,892 INFO [Reply#5]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:55:30,070 INFO [Reply#5]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:55:30,095 INFO [Reply#5]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:55:30,103 INFO [Reply#5]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:55:32,527 INFO [Reply#5]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:55:32,607 INFO [Reply#5]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:55:36,878 INFO [Reply#5]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.5,R:-0.5] NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2026-05-24 02:55:36,879 INFO [Reply#5]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:55:37,183 INFO [Reply#5]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:55:37,234 INFO [Reply#5]        ReductionStep.java:105  | Stems free length median value: 63 pixels, 3.3 interlines
+2026-05-24 02:55:37,236 INFO [Reply#5]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:55:37,236 INFO [Reply#5]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:55:37,237 INFO [Reply#5]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:55:37,320 WARN [Reply#5]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:55:37,320 INFO [Reply#5]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:55:37,322 INFO [Reply#5]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:55:37,323 INFO [Reply#5]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-24 02:55:37,323 INFO [Reply#5]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:55:37,328 INFO [Reply#5]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:55:37,793 INFO [Reply#5]         SlursBuilder.java:240  | Slurs: 20
+2026-05-24 02:55:37,813 INFO [Reply#5]      SegmentsBuilder.java:155  | Segments: 22
+2026-05-24 02:55:37,817 INFO [Reply#5]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:55:38,279 INFO [Reply#5]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:55:38,279 INFO [Reply#5]             KeyInter.java:1189 | No effective key before AlterInter#5801{(0.800) staff:1 NATURAL pitch:2.0}
+2026-05-24 02:55:38,280 INFO [Reply#5]             KeyInter.java:1189 | No effective key before AlterInter#5813{(0.800) staff:1 NATURAL pitch:2.0}
+2026-05-24 02:55:38,280 INFO [Reply#5]             KeyInter.java:1189 | No effective key before AlterInter#5817{(0.800) staff:2 NATURAL pitch:-3.0}
+2026-05-24 02:55:38,301 INFO [Reply#5]             KeyInter.java:1189 | No effective key before AlterInter#5951{(0.800) staff:10 NATURAL pitch:-3.0}
+2026-05-24 02:55:38,308 INFO [Reply#5]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:55:38,308 INFO [Reply#5]           PageRhythm.java:199  | {Page#5.1} Time value reused from sheet#1
+2026-05-24 02:55:38,324 INFO [Reply#5]        MeasureRhythm.java:1044 | Measure{#13} No timeOffset for HeadChordInter#5379{(0.957/0.957) staff:8 slot#3 dur:1/8}
+2026-05-24 02:55:38,324 INFO [Reply#5]   AbstractChordInter.java:627  | Measure{#13} No timeOffset for HeadChordInter#5381{(0.946/0.946) staff:8 slot#5 dur:1/8}
+2026-05-24 02:55:38,324 INFO [Reply#5]        MeasureRhythm.java:1044 | Measure{#13} No timeOffset for HeadChordInter#5356{(0.868/0.868) staff:7 slot#6 dur:1/2}
+2026-05-24 02:55:38,324 INFO [Reply#5]   AbstractChordInter.java:627  | Measure{#13} No timeOffset for RestChordInter#5945{(0.789/0.789) staff:8 slot#6 dur:1/8}
+2026-05-24 02:55:38,324 INFO [Reply#5]   AbstractChordInter.java:627  | Measure{#13} No timeOffset for HeadChordInter#5356{(0.868/0.868) staff:7 slot#6 dur:1/2}
+2026-05-24 02:55:38,324 INFO [Reply#5]                Voice.java:257  | Measure{#13} Voice{#1 excess:1/2} too long
+2026-05-24 02:55:38,324 INFO [Reply#5]          StackRhythm.java:224  | S4 MeasureStack#13 no correct rhythm
+2026-05-24 02:55:38,335 INFO [Reply#5]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:55:38,336 INFO [Reply#5]                Voice.java:257  | Measure{#13} Voice{#1 excess:1/2} too long
+2026-05-24 02:55:38,338 INFO [Reply#5]                 Book.java:2584 | Book{Reply} storing
+2026-05-24 02:55:38,388 INFO [Reply#5]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:55:38,445 INFO [Reply#5]           DataHolder.java:348  | Stored /sheet#5/BINARY.png
+2026-05-24 02:55:38,827 INFO [Reply#5]                Sheet.java:1583 | Stored /sheet#5/sheet#5.xml
+2026-05-24 02:55:38,827 INFO [Reply#5]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:55:38,834 INFO [Reply#5]            SheetStub.java:1655 | Sheet#5 disposed
+2026-05-24 02:55:38,859 INFO [Reply#5]                 Book.java:2050 | End of Stub#5
+2026-05-24 02:55:38,860 INFO [Reply#6]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:55:39,058 INFO [Reply#6]            SheetStub.java:1278 | Loaded image #6 2479x3508 from D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:55:39,059 INFO [Reply#6]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:55:39,414 INFO [Reply#6]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:55:39,418 INFO [Reply#6]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-24 02:55:39,418 INFO [Reply#6]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 232% of needed quorum
+2026-05-24 02:55:39,418 INFO [Reply#6]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-24 02:55:39,418 INFO [Reply#6]            ScaleStep.java:65   | Scale{ small_interline(12,13,14) interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-24 02:55:39,418 INFO [Reply#6]       StepMonitoring.java:98   | GRID
+2026-05-24 02:55:39,495 INFO [Reply#6]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:55:39,504 INFO [Reply#6]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-24 02:55:39,504 INFO [Reply#6]       LinesRetriever.java:1516 | Searching clusters with smallInterline: 13
+2026-05-24 02:55:39,506 INFO [Reply#6]    ClustersRetriever.java:326  | Retrieved raw line clusters: 2 of sizes [5] with interline(12,13,14)
+2026-05-24 02:55:39,552 INFO [Reply#6]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8, 9] #5[10, 11, 12]
+2026-05-24 02:55:39,560 INFO [Reply#6]        BarsRetriever.java:1305 | System#5
+2026-05-24 02:55:39,560 INFO [Reply#6]        BarsRetriever.java:1308 |    PartGroup{brace number:1 barline:true staves:11-12}
+2026-05-24 02:55:39,664 INFO [Reply#6]        SystemManager.java:779  | 3 parts along 5 systems
+2026-05-24 02:55:39,665 INFO [Reply#6]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:55:39,833 WARN [Reply#6]          ClefBuilder.java:658  | Staff#7 no recognized header clef.
+2026-05-24 02:55:40,008 INFO [Reply#6]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:55:40,029 INFO [Reply#6]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:55:40,037 INFO [Reply#6]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:55:42,413 INFO [Reply#6]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:55:42,486 INFO [Reply#6]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:55:46,914 INFO [Reply#6]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:-0.3] NOTEHEAD_BLACK[L:-0.4,R:-0.5]}
+2026-05-24 02:55:46,915 INFO [Reply#6]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:55:47,396 INFO [Reply#6]           BeamLinker.java:1729 | Not linking shorter BeamInter#1360{(0.424/0.590) BEAM}
+2026-05-24 02:55:47,398 INFO [Reply#6]           BeamLinker.java:1729 | Not linking shorter BeamInter#1365{(0.425/0.692) BEAM}
+2026-05-24 02:55:47,406 INFO [Reply#6]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:55:47,477 INFO [Reply#6]        ReductionStep.java:105  | Stems free length median value: 60 pixels, 3.2 interlines
+2026-05-24 02:55:47,480 INFO [Reply#6]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:55:47,480 INFO [Reply#6]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:55:47,481 INFO [Reply#6]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:55:47,567 WARN [Reply#6]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:55:47,568 INFO [Reply#6]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:55:47,570 INFO [Reply#6]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:55:47,572 INFO [Reply#6]                 Page.java:307  | 16 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 1 in system#4, 3 in system#5]
+2026-05-24 02:55:47,573 INFO [Reply#6]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:55:47,577 INFO [Reply#6]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:55:48,077 INFO [Reply#6]         SlursBuilder.java:240  | Slurs: 42
+2026-05-24 02:55:48,114 INFO [Reply#6]      SegmentsBuilder.java:155  | Segments: 41
+2026-05-24 02:55:48,122 INFO [Reply#6]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:55:49,528 INFO [Reply#6]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:55:49,529 INFO [Reply#6]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7154{(0.138) staff:2 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=931]
+2026-05-24 02:55:49,537 INFO [Reply#6]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7200{(0.138) staff:3 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=931]
+2026-05-24 02:55:49,544 INFO [Reply#6]             KeyInter.java:1322 | Key built KeyInter#7761{(0.973) staff:5 KEY_SHARP_3 pitch:-3.0 fifths:3}
+2026-05-24 02:55:49,544 INFO [Reply#6]             KeyInter.java:1322 | Key built KeyInter#7765{(0.973) staff:6 KEY_SHARP_3 pitch:-1.0 fifths:3}
+2026-05-24 02:55:49,570 INFO [Reply#6]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:55:49,570 INFO [Reply#6]           PageRhythm.java:199  | {Page#6.1} Time value reused from sheet#1
+2026-05-24 02:55:49,582 INFO [Reply#6]        MeasureRhythm.java:1044 | Measure{#13P1} No timeOffset for HeadChordInter#6392{(0.927/0.927) staff:7 slot#5 dur:1/4}
+2026-05-24 02:55:49,582 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P1} No timeOffset for HeadChordInter#6392{(0.927/0.927) staff:7 slot#5 dur:1/4}
+2026-05-24 02:55:49,582 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P1} No timeOffset for HeadChordInter#6393{(0.923/0.923) staff:7 slot#6 dur:1/4}
+2026-05-24 02:55:49,583 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P1} No timeOffset for HeadChordInter#6394{(0.941/0.941) staff:7 slot#7 dur:1/4}
+2026-05-24 02:55:49,583 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P1} No timeOffset for HeadChordInter#6395{(0.911/0.911) staff:7 slot#8 dur:1/4}
+2026-05-24 02:55:49,583 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P1} No timeOffset for HeadChordInter#6396{(0.889/0.889) staff:7 slot#9 dur:1/4}
+2026-05-24 02:55:49,583 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P1} No timeOffset for HeadChordInter#6397{(0.915/0.915) staff:7 slot#10 dur:1/4}
+2026-05-24 02:55:49,583 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P1} No timeOffset for HeadChordInter#6398{(0.908/0.908) staff:7 slot#11 dur:1/4}
+2026-05-24 02:55:49,583 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P1} No timeOffset for HeadChordInter#6399{(0.886/0.886) staff:7 slot#12 dur:1/4}
+2026-05-24 02:55:49,585 INFO [Reply#6]        MeasureRhythm.java:1044 | Measure{#13P2} No timeOffset for HeadChordInter#6405{(0.963/0.963) staff:8 slot#5 dur:1/4}
+2026-05-24 02:55:49,585 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6405{(0.963/0.963) staff:8 slot#5 dur:1/4}
+2026-05-24 02:55:49,585 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6406{(0.953/0.953) staff:8 slot#6 dur:1/4}
+2026-05-24 02:55:49,586 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6407{(0.935/0.935) staff:8 slot#7 dur:1/4}
+2026-05-24 02:55:49,586 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6408{(0.946/0.946) staff:8 slot#8 dur:1/4}
+2026-05-24 02:55:49,586 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6409{(0.939/0.939) staff:8 slot#9 dur:1/4}
+2026-05-24 02:55:49,586 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6410{(0.961/0.961) staff:8 slot#10 dur:1/4}
+2026-05-24 02:55:49,586 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6411{(0.958/0.958) staff:8 slot#11 dur:1/4}
+2026-05-24 02:55:49,586 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6412{(0.960/0.960) staff:8 slot#12 dur:1/4}
+2026-05-24 02:55:49,586 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6413{(0.950/0.950) staff:8 slot#13 dur:1/4}
+2026-05-24 02:55:49,586 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6414{(0.940/0.940) staff:8 slot#14 dur:1/4}
+2026-05-24 02:55:49,586 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6415{(0.945/0.945) staff:8 slot#15 dur:1/4}
+2026-05-24 02:55:49,586 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6416{(0.936/0.936) staff:8 slot#16 dur:1/4}
+2026-05-24 02:55:49,589 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6417{(0.965/0.965) staff:8 slot#17 dur:1/6}
+2026-05-24 02:55:49,590 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6418{(0.939/0.939) staff:8 slot#18 dur:1/6}
+2026-05-24 02:55:49,590 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6419{(0.940/0.940) staff:8 slot#19 dur:1/6}
+2026-05-24 02:55:49,590 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P2} No timeOffset for HeadChordInter#6420{(0.935/0.935) staff:8 slot#20 dur:1/4}
+2026-05-24 02:55:49,590 INFO [Reply#6]        MeasureRhythm.java:1044 | Measure{#13P3} No timeOffset for HeadChordInter#6426{(0.958/0.958) slot#3 dur:1/2}
+2026-05-24 02:55:49,590 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#13P3} No timeOffset for HeadChordInter#6426{(0.958/0.958) slot#3 dur:1/2}
+2026-05-24 02:55:49,590 INFO [Reply#6]                Voice.java:257  | Measure{#13P3} Voice{#1 excess:1/2} too long
+2026-05-24 02:55:49,590 INFO [Reply#6]          StackRhythm.java:224  | S4 MeasureStack#13 no correct rhythm
+2026-05-24 02:55:49,592 INFO [Reply#6]        MeasureRhythm.java:1044 | Measure{#14P1} No timeOffset for HeadChordInter#6437{(0.921/0.921) staff:10 slot#9 dur:1/4}
+2026-05-24 02:55:49,592 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#14P1} No timeOffset for HeadChordInter#6437{(0.921/0.921) staff:10 slot#9 dur:1/4}
+2026-05-24 02:55:49,593 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#14P1} No timeOffset for HeadChordInter#6438{(0.839/0.839) staff:10 slot#10 dur:1/4}
+2026-05-24 02:55:49,593 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#14P1} No timeOffset for HeadChordInter#6439{(0.918/0.918) staff:10 slot#11 dur:1/4}
+2026-05-24 02:55:49,593 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#14P1} No timeOffset for HeadChordInter#6440{(0.900/0.900) staff:10 slot#12 dur:1/4}
+2026-05-24 02:55:49,593 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#14P1} No timeOffset for HeadChordInter#6441{(0.908/0.908) staff:10 slot#13 dur:1/4}
+2026-05-24 02:55:49,593 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#14P1} No timeOffset for HeadChordInter#6442{(0.906/0.906) staff:10 slot#14 dur:1/4}
+2026-05-24 02:55:49,594 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#14P1} No timeOffset for HeadChordInter#6443{(0.717/0.717) staff:10 slot#15 dur:1/4}
+2026-05-24 02:55:49,594 INFO [Reply#6]                Voice.java:257  | Measure{#14P1} Voice{#1 excess:3/32} too long
+2026-05-24 02:55:49,594 INFO [Reply#6]          StackRhythm.java:224  | S5 MeasureStack#14 no correct rhythm
+2026-05-24 02:55:49,595 INFO [Reply#6]        MeasureRhythm.java:1044 | Measure{#15P1} No timeOffset for HeadChordInter#6449{(0.933/0.933) staff:10 slot#5 dur:1/16}
+2026-05-24 02:55:49,595 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#15P1} No timeOffset for HeadChordInter#6450{(0.921/0.921) staff:10 slot#6 dur:1/32}
+2026-05-24 02:55:49,595 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#15P1} No timeOffset for HeadChordInter#6451{(0.924/0.924) staff:10 slot#7 dur:1/4}
+2026-05-24 02:55:49,595 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#15P1} No timeOffset for HeadChordInter#6452{(0.827/0.827) staff:10 slot#8 dur:1/4}
+2026-05-24 02:55:49,595 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#15P1} No timeOffset for HeadChordInter#6453{(0.922/0.922) staff:10 slot#9 dur:1/4}
+2026-05-24 02:55:49,595 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#15P1} No timeOffset for HeadChordInter#6454{(0.833/0.833) staff:10 slot#10 dur:1/4}
+2026-05-24 02:55:49,595 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#15P1} No timeOffset for HeadChordInter#6455{(0.922/0.922) staff:10 slot#11 dur:1/4}
+2026-05-24 02:55:49,596 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#15P1} No timeOffset for HeadChordInter#6456{(0.905/0.905) staff:10 slot#12 dur:1/4}
+2026-05-24 02:55:49,596 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#15P1} No timeOffset for HeadChordInter#6457{(0.865/0.865) staff:10 slot#13 dur:1/4}
+2026-05-24 02:55:49,596 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#15P1} No timeOffset for HeadChordInter#6458{(0.897/0.897) staff:10 slot#14 dur:1/4}
+2026-05-24 02:55:49,597 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#15P1} No timeOffset for HeadChordInter#6459{(0.714/0.714) staff:10 slot#15 dur:1/4}
+2026-05-24 02:55:49,598 INFO [Reply#6]          StackRhythm.java:224  | S5 MeasureStack#15 no correct rhythm
+2026-05-24 02:55:49,598 INFO [Reply#6]        MeasureRhythm.java:1044 | Measure{#16P1} No timeOffset for HeadChordInter#6466{(0.913/0.913) staff:10 slot#6 dur:1/4}
+2026-05-24 02:55:49,598 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#16P1} No timeOffset for HeadChordInter#6466{(0.913/0.913) staff:10 slot#6 dur:1/4}
+2026-05-24 02:55:49,598 INFO [Reply#6]   AbstractChordInter.java:627  | Measure{#16P1} No timeOffset for HeadChordInter#6467{(0.914/0.914) staff:10 slot#7 dur:1/4}
+2026-05-24 02:55:49,598 INFO [Reply#6]                Voice.java:257  | Measure{#16P1} Voice{#1 excess:1/8} too long
+2026-05-24 02:55:49,599 INFO [Reply#6]          StackRhythm.java:224  | S5 MeasureStack#16 no correct rhythm
+2026-05-24 02:55:49,600 INFO [Reply#6]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:55:49,602 INFO [Reply#6]                Voice.java:257  | Measure{#13P3} Voice{#1 excess:1/2} too long
+2026-05-24 02:55:49,603 INFO [Reply#6]                Voice.java:257  | Measure{#14P1} Voice{#1 excess:3/32} too long
+2026-05-24 02:55:49,603 INFO [Reply#6]                Voice.java:257  | Measure{#16P1} Voice{#1 excess:1/8} too long
+2026-05-24 02:55:49,604 INFO [Reply#6]                 Book.java:2584 | Book{Reply} storing
+2026-05-24 02:55:49,657 INFO [Reply#6]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:55:49,718 INFO [Reply#6]           DataHolder.java:348  | Stored /sheet#6/BINARY.png
+2026-05-24 02:55:50,148 INFO [Reply#6]                Sheet.java:1583 | Stored /sheet#6/sheet#6.xml
+2026-05-24 02:55:50,149 INFO [Reply#6]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:55:50,157 INFO [Reply#6]            SheetStub.java:1655 | Sheet#6 disposed
+2026-05-24 02:55:50,183 INFO [Reply#6]                 Book.java:2050 | End of Stub#6
+2026-05-24 02:55:50,185 INFO [Reply#7]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:55:50,356 INFO [Reply#7]            SheetStub.java:1278 | Loaded image #7 2479x3508 from D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:55:50,356 INFO [Reply#7]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:55:50,714 INFO [Reply#7]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:55:50,717 INFO [Reply#7]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-24 02:55:50,717 INFO [Reply#7]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 292% of needed quorum
+2026-05-24 02:55:50,717 INFO [Reply#7]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-24 02:55:50,717 INFO [Reply#7]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-24 02:55:50,717 INFO [Reply#7]       StepMonitoring.java:98   | GRID
+2026-05-24 02:55:50,789 INFO [Reply#7]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:55:50,795 INFO [Reply#7]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-24 02:55:50,843 INFO [Reply#7]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-24 02:55:50,943 INFO [Reply#7]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-24 02:55:50,945 INFO [Reply#7]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:55:51,433 INFO [Reply#7]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:55:51,456 INFO [Reply#7]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:55:51,461 INFO [Reply#7]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:55:53,940 INFO [Reply#7]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:55:54,006 INFO [Reply#7]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:55:58,045 INFO [Reply#7]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-24 02:55:58,045 INFO [Reply#7]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:55:58,416 INFO [Reply#7]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:55:58,484 INFO [Reply#7]        ReductionStep.java:105  | Stems free length median value: 67 pixels, 3.5 interlines
+2026-05-24 02:55:58,487 INFO [Reply#7]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:55:58,487 INFO [Reply#7]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:55:58,487 INFO [Reply#7]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:55:58,572 WARN [Reply#7]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:55:58,573 INFO [Reply#7]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:55:58,574 INFO [Reply#7]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:55:58,575 INFO [Reply#7]                 Page.java:307  | 16 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4, 4 in system#5]
+2026-05-24 02:55:58,575 INFO [Reply#7]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:55:58,580 INFO [Reply#7]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:55:59,084 INFO [Reply#7]         SlursBuilder.java:240  | Slurs: 91
+2026-05-24 02:55:59,102 INFO [Reply#7]      SegmentsBuilder.java:155  | Segments: 29
+2026-05-24 02:55:59,107 INFO [Reply#7]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:55:59,674 INFO [Reply#7]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:55:59,681 INFO [Reply#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6483{(0.136) staff:4 VENTIDUESIMA BASSA} at java.awt.Point[x=211,y=1631]
+2026-05-24 02:55:59,691 INFO [Reply#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6542{(0.136) staff:5 VENTIDUESIMA ALTA} at java.awt.Point[x=211,y=1631]
+2026-05-24 02:55:59,701 INFO [Reply#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6585{(0.180) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2884]
+2026-05-24 02:55:59,710 INFO [Reply#7]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6610{(0.180) staff:9 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2884]
+2026-05-24 02:55:59,725 INFO [Reply#7]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:55:59,726 INFO [Reply#7]           PageRhythm.java:199  | {Page#7.1} Time value reused from sheet#1
+2026-05-24 02:55:59,747 INFO [Reply#7]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:55:59,753 INFO [Reply#7]                 Book.java:2584 | Book{Reply} storing
+2026-05-24 02:55:59,801 INFO [Reply#7]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:55:59,858 INFO [Reply#7]           DataHolder.java:348  | Stored /sheet#7/BINARY.png
+2026-05-24 02:56:00,250 INFO [Reply#7]                Sheet.java:1583 | Stored /sheet#7/sheet#7.xml
+2026-05-24 02:56:00,250 INFO [Reply#7]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:56:00,256 INFO [Reply#7]            SheetStub.java:1655 | Sheet#7 disposed
+2026-05-24 02:56:00,282 INFO [Reply#7]                 Book.java:2050 | End of Stub#7
+2026-05-24 02:56:00,282 INFO [Reply#8]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:56:00,334 INFO [Reply#8]            SheetStub.java:1278 | Loaded image #8 2479x3508 from D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:56:00,336 INFO [Reply#8]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:56:00,698 INFO [Reply#8]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:56:00,701 INFO [Reply#8]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-24 02:56:00,701 INFO [Reply#8]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 174% of needed quorum
+2026-05-24 02:56:00,701 INFO [Reply#8]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-24 02:56:00,701 INFO [Reply#8]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-24 02:56:00,701 INFO [Reply#8]       StepMonitoring.java:98   | GRID
+2026-05-24 02:56:00,786 INFO [Reply#8]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:56:00,795 INFO [Reply#8]    ClustersRetriever.java:326  | Retrieved raw line clusters: 9 of sizes [5] with interline(19,19,20)
+2026-05-24 02:56:00,835 INFO [Reply#8]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5] #4[6, 7] #5[8, 9]
+2026-05-24 02:56:00,936 INFO [Reply#8]        SystemManager.java:134  | Indentation detected for system #3
+2026-05-24 02:56:00,937 INFO [Reply#8]        SystemManager.java:723  | 2 pages found in sheet
+2026-05-24 02:56:00,937 INFO [Reply#8]        SystemManager.java:779  | Page #1: 1 part along 2 systems
+2026-05-24 02:56:00,937 INFO [Reply#8]        SystemManager.java:779  | Page #2: 1 part along 3 systems
+2026-05-24 02:56:00,937 INFO [Reply#8]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:56:01,210 WARN [Reply#8]          ClefBuilder.java:658  | Staff#5 no recognized header clef.
+2026-05-24 02:56:01,417 INFO [Reply#8]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:56:01,442 INFO [Reply#8]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:56:01,448 INFO [Reply#8]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:56:03,868 INFO [Reply#8]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:56:03,953 INFO [Reply#8]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:56:07,256 INFO [Reply#8]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-24 02:56:07,256 INFO [Reply#8]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:56:07,623 INFO [Reply#8]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:56:07,677 INFO [Reply#8]        ReductionStep.java:105  | Stems free length median value: 67 pixels, 3.5 interlines
+2026-05-24 02:56:07,679 INFO [Reply#8]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:56:07,680 INFO [Reply#8]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:56:07,680 INFO [Reply#8]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:56:07,761 WARN [Reply#8]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:56:07,761 INFO [Reply#8]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:56:07,763 INFO [Reply#8]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:56:07,764 INFO [Reply#8]                 Page.java:307  | 11 raw measures: [6 in system#1, 5 in system#2]
+2026-05-24 02:56:07,764 INFO [Reply#8]                 Page.java:307  | 8 raw measures: [1 in system#3, 4 in system#4, 3 in system#5]
+2026-05-24 02:56:07,764 INFO [Reply#8]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:56:07,768 INFO [Reply#8]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:56:08,200 INFO [Reply#8]         SlursBuilder.java:240  | Slurs: 31
+2026-05-24 02:56:08,226 INFO [Reply#8]      SegmentsBuilder.java:155  | Segments: 45
+2026-05-24 02:56:08,232 INFO [Reply#8]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:56:08,830 INFO [Reply#8]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:56:08,832 INFO [Reply#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6011{(0.608) staff:1 OTTAVA ALTA} at java.awt.Point[x=186,y=201]
+2026-05-24 02:56:08,840 INFO [Reply#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6207{(0.710) staff:7 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2814]
+2026-05-24 02:56:08,841 INFO [Reply#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6223{(0.318) staff:7 QUINDICESIMA BASSA} at java.awt.Point[x=193,y=2813]
+2026-05-24 02:56:08,854 INFO [Reply#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6300{(0.710) staff:8 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2814]
+2026-05-24 02:56:08,854 INFO [Reply#8]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6302{(0.318) staff:8 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=2813]
+2026-05-24 02:56:08,863 INFO [Reply#8]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:56:08,864 INFO [Reply#8]           PageRhythm.java:199  | {Page#8.1} Time value reused from sheet#1
+2026-05-24 02:56:08,878 INFO [Reply#8]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:56:08,879 INFO [Reply#8]       SheetReduction.java:154  | Gutter. Different glyphs 4/5 ArticulationInter#6265{(0.647/0.771) STACCATO} vs EndingInter#5796{(0.592/0.832) staff:8 ENDING}
+2026-05-24 02:56:08,881 WARN [Reply#8]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [1], please check time signatures
+2026-05-24 02:56:08,882 WARN [Reply#8]         MeasureFixer.java:343  | System#4 No target duration for measures local IDs [2, 3, 4, 5], please check time signatures
+2026-05-24 02:56:08,882 WARN [Reply#8]         MeasureFixer.java:343  | System#5 No target duration for measures local IDs [6, 7, 8], please check time signatures
+2026-05-24 02:56:08,883 INFO [Reply#8]                 Book.java:2584 | Book{Reply} storing
+2026-05-24 02:56:08,933 INFO [Reply#8]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:56:08,994 INFO [Reply#8]           DataHolder.java:348  | Stored /sheet#8/BINARY.png
+2026-05-24 02:56:09,403 INFO [Reply#8]                Sheet.java:1583 | Stored /sheet#8/sheet#8.xml
+2026-05-24 02:56:09,404 INFO [Reply#8]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:56:09,409 INFO [Reply#8]            SheetStub.java:1655 | Sheet#8 disposed
+2026-05-24 02:56:09,433 INFO [Reply#8]                 Book.java:2050 | End of Stub#8
+2026-05-24 02:56:09,433 INFO [Reply#9]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:56:09,650 INFO [Reply#9]            SheetStub.java:1278 | Loaded image #9 2479x3508 from D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:56:09,651 INFO [Reply#9]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:56:10,000 INFO [Reply#9]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:56:10,002 INFO [Reply#9]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-24 02:56:10,003 INFO [Reply#9]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 349% of needed quorum
+2026-05-24 02:56:10,003 INFO [Reply#9]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-24 02:56:10,003 INFO [Reply#9]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-24 02:56:10,003 INFO [Reply#9]       StepMonitoring.java:98   | GRID
+2026-05-24 02:56:10,073 INFO [Reply#9]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:56:10,082 INFO [Reply#9]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(19,19,20)
+2026-05-24 02:56:10,126 INFO [Reply#9]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-24 02:56:10,226 INFO [Reply#9]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-24 02:56:10,226 INFO [Reply#9]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:56:10,732 INFO [Reply#9]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:56:10,760 INFO [Reply#9]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:56:10,768 INFO [Reply#9]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:56:13,240 INFO [Reply#9]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:56:13,327 INFO [Reply#9]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:56:17,792 INFO [Reply#9]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.4,R:-0.5] NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-24 02:56:17,793 INFO [Reply#9]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:56:18,273 INFO [Reply#9]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:56:18,351 INFO [Reply#9]        ReductionStep.java:105  | Stems free length median value: 58 pixels, 3.1 interlines
+2026-05-24 02:56:18,353 INFO [Reply#9]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:56:18,354 INFO [Reply#9]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:56:18,354 INFO [Reply#9]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:56:18,444 WARN [Reply#9]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:56:18,445 INFO [Reply#9]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:56:18,446 INFO [Reply#9]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:56:18,448 INFO [Reply#9]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2026-05-24 02:56:18,448 INFO [Reply#9]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:56:18,454 INFO [Reply#9]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:56:18,957 INFO [Reply#9]         SlursBuilder.java:240  | Slurs: 20
+2026-05-24 02:56:18,976 INFO [Reply#9]      SegmentsBuilder.java:155  | Segments: 31
+2026-05-24 02:56:18,984 INFO [Reply#9]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:56:19,613 INFO [Reply#9]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:56:19,614 INFO [Reply#9]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7643{(0.655) staff:1 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=374]
+2026-05-24 02:56:19,614 INFO [Reply#9]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7647{(0.592) staff:1 QUINDICESIMA ALTA} at java.awt.Point[x=193,y=374]
+2026-05-24 02:56:19,636 INFO [Reply#9]             KeyInter.java:1322 | Key built KeyInter#7897{(0.973) staff:7 KEY_CANCEL pitch:-3.1 fifths:null}
+2026-05-24 02:56:19,637 INFO [Reply#9]             KeyInter.java:1322 | Key built KeyInter#7901{(0.973) staff:8 KEY_CANCEL pitch:-1.0 fifths:null}
+2026-05-24 02:56:19,642 INFO [Reply#9]             KeyInter.java:1189 | No effective key before AlterInter#7873{(0.800) staff:9 NATURAL pitch:2.0}
+2026-05-24 02:56:19,642 INFO [Reply#9]             KeyInter.java:1189 | No effective key before AlterInter#7879{(0.800) staff:9 NATURAL pitch:2.0}
+2026-05-24 02:56:19,642 INFO [Reply#9]             KeyInter.java:1189 | No effective key before AlterInter#7882{(0.800) staff:9 NATURAL pitch:-5.0}
+2026-05-24 02:56:19,642 INFO [Reply#9]             KeyInter.java:1189 | No effective key before AlterInter#7880{(0.800) staff:10 NATURAL pitch:-3.0}
+2026-05-24 02:56:19,648 INFO [Reply#9]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:56:19,668 INFO [Reply#9]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:56:19,670 WARN [Reply#9]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+2026-05-24 02:56:19,671 WARN [Reply#9]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [5, 6, 7, 8], please check time signatures
+2026-05-24 02:56:19,671 WARN [Reply#9]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [9, 10, 11, 12], please check time signatures
+2026-05-24 02:56:19,671 WARN [Reply#9]         MeasureFixer.java:343  | System#4 No target duration for measures local IDs [13, 14, 15, 16], please check time signatures
+2026-05-24 02:56:19,671 WARN [Reply#9]         MeasureFixer.java:343  | System#5 No target duration for measures local IDs [17, 18, 19, 20], please check time signatures
+2026-05-24 02:56:19,672 INFO [Reply#9]                 Book.java:2584 | Book{Reply} storing
+2026-05-24 02:56:19,725 INFO [Reply#9]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:56:19,791 INFO [Reply#9]           DataHolder.java:348  | Stored /sheet#9/BINARY.png
+2026-05-24 02:56:20,217 INFO [Reply#9]                Sheet.java:1583 | Stored /sheet#9/sheet#9.xml
+2026-05-24 02:56:20,217 INFO [Reply#9]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:56:20,223 INFO [Reply#9]            SheetStub.java:1655 | Sheet#9 disposed
+2026-05-24 02:56:20,247 INFO [Reply#9]                 Book.java:2050 | End of Stub#9
+2026-05-24 02:56:20,247 INFO [Reply#10]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:56:20,333 INFO [Reply#10]            SheetStub.java:1278 | Loaded image #10 2479x3508 from D:\Program\Python\Piano\Reply.pdf
+2026-05-24 02:56:20,334 INFO [Reply#10]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:56:20,679 INFO [Reply#10]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:56:20,679 INFO [Reply#10]         ScaleBuilder.java:255  | Beam  guessed height: 11 -- mid of [5..18]
+2026-05-24 02:56:20,679 INFO [Reply#10]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.38 of [5..18] range at 428% of needed quorum
+2026-05-24 02:56:20,679 INFO [Reply#10]         ScaleBuilder.java:401  | Normalized black jitter: 5.26 %
+2026-05-24 02:56:20,679 INFO [Reply#10]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(2,2,3) beam(10)}
+2026-05-24 02:56:20,679 INFO [Reply#10]       StepMonitoring.java:98   | GRID
+2026-05-24 02:56:20,726 INFO [Reply#10]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:56:20,731 INFO [Reply#10]    ClustersRetriever.java:326  | Retrieved raw line clusters: 6 of sizes [5] with interline(19,19,20)
+2026-05-24 02:56:20,749 INFO [Reply#10]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6]
+2026-05-24 02:56:20,833 INFO [Reply#10]        SystemManager.java:779  | 1 part along 3 systems
+2026-05-24 02:56:20,833 INFO [Reply#10]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:56:20,980 INFO [Reply#10]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:56:21,003 INFO [Reply#10]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:56:21,009 INFO [Reply#10]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:56:23,313 INFO [Reply#10]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:56:23,374 INFO [Reply#10]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:56:25,966 INFO [Reply#10]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.5,R:-0.5] NOTEHEAD_BLACK[L:-0.5,R:-0.8]}
+2026-05-24 02:56:25,968 INFO [Reply#10]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:56:26,175 INFO [Reply#10]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:56:26,201 INFO [Reply#10]        ReductionStep.java:105  | Stems free length median value: 62 pixels, 3.3 interlines
+2026-05-24 02:56:26,202 INFO [Reply#10]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:56:26,203 INFO [Reply#10]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:56:26,203 INFO [Reply#10]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:56:26,273 WARN [Reply#10]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:56:26,273 INFO [Reply#10]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:56:26,274 INFO [Reply#10]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:56:26,275 INFO [Reply#10]                 Page.java:307  | 12 raw measures: [4 in system#1, 3 in system#2, 5 in system#3]
+2026-05-24 02:56:26,275 INFO [Reply#10]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:56:26,278 INFO [Reply#10]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:56:26,664 INFO [Reply#10]         SlursBuilder.java:240  | Slurs: 7
+2026-05-24 02:56:26,677 INFO [Reply#10]      SegmentsBuilder.java:155  | Segments: 18
+2026-05-24 02:56:26,681 INFO [Reply#10]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:56:27,025 INFO [Reply#10]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:56:27,028 INFO [Reply#10]             KeyInter.java:1189 | No effective key before AlterInter#3625{(0.800) staff:1 NATURAL pitch:-5.0}
+2026-05-24 02:56:27,036 INFO [Reply#10]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#3642{(0.526) staff:4 OTTAVA BASSA} at java.awt.Point[x=201,y=1356]
+2026-05-24 02:56:27,037 INFO [Reply#10]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#3650{(0.435) staff:4 QUINDICESIMA BASSA} at java.awt.Point[x=194,y=1356]
+2026-05-24 02:56:27,037 INFO [Reply#10]             KeyInter.java:1189 | No effective key before AlterInter#3655{(0.414) staff:3 NATURAL pitch:1.0}
+2026-05-24 02:56:27,038 INFO [Reply#10]             KeyInter.java:1189 | No effective key before AlterInter#3662{(0.800) staff:3 NATURAL pitch:-5.0}
+2026-05-24 02:56:27,038 INFO [Reply#10]             KeyInter.java:1189 | No effective key before AlterInter#3664{(0.800) staff:3 NATURAL pitch:2.0}
+2026-05-24 02:56:27,038 INFO [Reply#10]             KeyInter.java:1189 | No effective key before AlterInter#3666{(0.800) staff:4 NATURAL pitch:-3.0}
+2026-05-24 02:56:27,046 INFO [Reply#10]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#3670{(0.526) staff:5 OTTAVA ALTA} at java.awt.Point[x=201,y=1356]
+2026-05-24 02:56:27,046 INFO [Reply#10]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#3671{(0.435) staff:5 QUINDICESIMA ALTA} at java.awt.Point[x=194,y=1356]
+2026-05-24 02:56:27,053 INFO [Reply#10]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:56:27,072 INFO [Reply#10]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:56:27,074 WARN [Reply#10]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+2026-05-24 02:56:27,075 WARN [Reply#10]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [5, 6, 7], please check time signatures
+2026-05-24 02:56:27,075 WARN [Reply#10]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [8, 9, 10, 11, 12], please check time signatures
+2026-05-24 02:56:27,076 INFO [Reply#10]                 Book.java:2584 | Book{Reply} storing
+2026-05-24 02:56:27,115 INFO [Reply#10]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:56:27,173 INFO [Reply#10]           DataHolder.java:348  | Stored /sheet#10/BINARY.png
+2026-05-24 02:56:27,416 INFO [Reply#10]                Sheet.java:1583 | Stored /sheet#10/sheet#10.xml
+2026-05-24 02:56:27,416 INFO [Reply#10]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:56:27,425 INFO [Reply#10]            SheetStub.java:1655 | Sheet#10 disposed
+2026-05-24 02:56:27,447 INFO [Reply#10]                 Book.java:2050 | End of Stub#10
+2026-05-24 02:56:27,448 INFO [Reply]                 Book.java:2057 | End of Book{Reply}
+2026-05-24 02:56:27,840 INFO [Reply]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-05-24 02:56:28,022 INFO [Reply]            SheetStub.java:1000 | Loaded /sheet#2/sheet#2.xml
+2026-05-24 02:56:28,240 INFO [Reply]            SheetStub.java:1000 | Loaded /sheet#3/sheet#3.xml
+2026-05-24 02:56:28,426 INFO [Reply]            SheetStub.java:1000 | Loaded /sheet#4/sheet#4.xml
+2026-05-24 02:56:28,653 INFO [Reply]            SheetStub.java:1000 | Loaded /sheet#5/sheet#5.xml
+2026-05-24 02:56:28,857 INFO [Reply]            SheetStub.java:1000 | Loaded /sheet#6/sheet#6.xml
+2026-05-24 02:56:29,056 INFO [Reply]            SheetStub.java:1000 | Loaded /sheet#7/sheet#7.xml
+2026-05-24 02:56:29,236 INFO [Reply]            SheetStub.java:1000 | Loaded /sheet#8/sheet#8.xml
+2026-05-24 02:56:29,400 INFO [Reply]            SheetStub.java:1000 | Loaded /sheet#9/sheet#9.xml
+2026-05-24 02:56:29,533 INFO [Reply]            SheetStub.java:1000 | Loaded /sheet#10/sheet#10.xml
+2026-05-24 02:56:29,976 INFO [Reply]      PartwiseBuilder.java:2706 | Exporting sheet(s): [#1#2#3#4#5#6#7#8]
+2026-05-24 02:56:29,976 INFO [Reply]                 Part.java:351  | Sheet#1 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:29,984 INFO [Reply]                 Part.java:351  | Sheet#1 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:29,985 INFO [Reply]                 Part.java:351  | Sheet#1 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:29,986 INFO [Reply]                 Part.java:351  | Sheet#1 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:29,987 INFO [Reply]                 Part.java:351  | Sheet#1 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:29,987 INFO [Reply]                 Part.java:351  | Sheet#1 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:29,989 INFO [Reply]                 Part.java:351  | Sheet#1 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:29,989 INFO [Reply]                 Part.java:351  | Sheet#1 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:29,989 INFO [Reply]                 Part.java:351  | Sheet#1 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:29,989 INFO [Reply]                 Part.java:351  | Sheet#1 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:29,990 INFO [Reply]                 Part.java:351  | Sheet#1 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:29,990 INFO [Reply]                 Part.java:351  | Sheet#1 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:29,990 INFO [Reply]                 Part.java:351  | Sheet#1 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:29,991 INFO [Reply]                 Part.java:351  | Sheet#1 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:29,992 INFO [Reply]                 Part.java:351  | Sheet#1 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,015 INFO [Reply]                 Part.java:351  | Sheet#2 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,016 INFO [Reply]                 Part.java:351  | Sheet#2 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,018 INFO [Reply]                 Part.java:351  | Sheet#2 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,019 INFO [Reply]                 Part.java:351  | Sheet#2 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,019 INFO [Reply]                 Part.java:351  | Sheet#2 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,020 INFO [Reply]                 Part.java:351  | Sheet#2 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,020 INFO [Reply]                 Part.java:351  | Sheet#2 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,020 INFO [Reply]                 Part.java:351  | Sheet#2 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,020 INFO [Reply]                 Part.java:351  | Sheet#2 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,020 INFO [Reply]                 Part.java:351  | Sheet#2 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,021 INFO [Reply]                 Part.java:351  | Sheet#2 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,021 INFO [Reply]                 Part.java:351  | Sheet#2 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,022 INFO [Reply]                 Part.java:351  | Sheet#2 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,022 INFO [Reply]                 Part.java:351  | Sheet#2 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,022 INFO [Reply]                 Part.java:351  | Sheet#2 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,032 INFO [Reply]                 Part.java:351  | Sheet#3 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,034 INFO [Reply]                 Part.java:351  | Sheet#3 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,036 INFO [Reply]                 Part.java:351  | Sheet#3 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,036 INFO [Reply]                 Part.java:351  | Sheet#3 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,036 INFO [Reply]                 Part.java:351  | Sheet#3 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,037 INFO [Reply]                 Part.java:351  | Sheet#3 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,037 INFO [Reply]                 Part.java:351  | Sheet#3 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,037 INFO [Reply]                 Part.java:351  | Sheet#3 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,037 INFO [Reply]                 Part.java:351  | Sheet#3 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,038 INFO [Reply]                 Part.java:351  | Sheet#3 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,038 INFO [Reply]                 Part.java:351  | Sheet#3 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,039 INFO [Reply]                 Part.java:351  | Sheet#3 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,039 INFO [Reply]                 Part.java:351  | Sheet#3 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,039 INFO [Reply]                 Part.java:351  | Sheet#3 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,039 INFO [Reply]                 Part.java:351  | Sheet#3 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,057 INFO [Reply]                 Part.java:351  | Sheet#4 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,059 INFO [Reply]                 Part.java:351  | Sheet#4 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,060 INFO [Reply]                 Part.java:351  | Sheet#4 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,061 INFO [Reply]                 Part.java:351  | Sheet#4 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,061 INFO [Reply]                 Part.java:351  | Sheet#4 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,061 WARN [Reply]      PartwiseBuilder.java:1777 | Error visiting KeyInter#0{(nul) staff:0 pitch:n fifths:null} in {Page#4.1}
+java.lang.NumberFormatException: For input string: "null"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1742)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1795)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2041)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3229)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-05-24 02:56:30,065 INFO [Reply]                 Part.java:351  | Sheet#4 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,065 INFO [Reply]                 Part.java:351  | Sheet#4 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,066 INFO [Reply]                 Part.java:351  | Sheet#4 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,066 INFO [Reply]                 Part.java:351  | Sheet#4 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,067 INFO [Reply]                 Part.java:351  | Sheet#4 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,067 WARN [Reply]      PartwiseBuilder.java:1777 | Error visiting KeyInter#0{(nul) staff:0 pitch:n fifths:null} in {Page#4.1}
+java.lang.NumberFormatException: For input string: "null"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1742)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1795)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2041)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3229)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-05-24 02:56:30,067 INFO [Reply]                 Part.java:351  | Sheet#4 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,068 INFO [Reply]                 Part.java:351  | Sheet#4 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,069 INFO [Reply]                 Part.java:351  | Sheet#4 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,069 INFO [Reply]                 Part.java:351  | Sheet#4 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,070 INFO [Reply]                 Part.java:351  | Sheet#4 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,070 WARN [Reply]      PartwiseBuilder.java:1777 | Error visiting KeyInter#0{(nul) staff:0 pitch:n fifths:null} in {Page#4.1}
+java.lang.NumberFormatException: For input string: "null"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1742)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1795)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2041)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3229)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-05-24 02:56:30,083 WARN [Reply]      PartwiseBuilder.java:1777 | Error visiting KeyInter#7729{(0.973/0.973) staff:9 KEY_CANCEL pitch:-3.0 fifths:null} in {Page#4.1}
+java.lang.NumberFormatException: For input string: "null"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1742)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1795)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2041)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3222)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-05-24 02:56:30,086 INFO [Reply]                 Part.java:351  | Sheet#5 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,088 INFO [Reply]                 Part.java:351  | Sheet#5 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,089 INFO [Reply]                 Part.java:351  | Sheet#5 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,089 INFO [Reply]                 Part.java:351  | Sheet#5 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,089 INFO [Reply]                 Part.java:351  | Sheet#5 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,089 INFO [Reply]                 Part.java:351  | Sheet#5 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,089 INFO [Reply]                 Part.java:351  | Sheet#5 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,090 INFO [Reply]                 Part.java:351  | Sheet#5 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,090 INFO [Reply]                 Part.java:351  | Sheet#5 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,091 INFO [Reply]                 Part.java:351  | Sheet#5 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,091 INFO [Reply]                 Part.java:351  | Sheet#5 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,092 INFO [Reply]                 Part.java:351  | Sheet#5 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,093 INFO [Reply]                 Part.java:351  | Sheet#5 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,093 INFO [Reply]                 Part.java:351  | Sheet#5 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,093 INFO [Reply]                 Part.java:351  | Sheet#5 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,111 INFO [Reply]                 Part.java:351  | Sheet#6 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,115 INFO [Reply]                 Part.java:351  | Sheet#6 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,117 INFO [Reply]                 Part.java:351  | Sheet#6 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,121 INFO [Reply]                 Part.java:351  | Sheet#6 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,122 INFO [Reply]                 Part.java:351  | Sheet#6 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,123 INFO [Reply]                 Part.java:351  | Sheet#6 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,125 INFO [Reply]                 Part.java:351  | Sheet#6 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,126 INFO [Reply]                 Part.java:351  | Sheet#6 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,127 INFO [Reply]                 Part.java:351  | Sheet#6 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,138 INFO [Reply]                 Part.java:351  | Sheet#6 System#4 Part#1{ staves[7] configs:[5s]} dummyPart id: 4
+2026-05-24 02:56:30,139 INFO [Reply]                 Part.java:351  | Sheet#6 System#5 Part#1{ staves[10] configs:[5s]} dummyPart id: 4
+2026-05-24 02:56:30,141 INFO [Reply]                 Part.java:351  | Sheet#7 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,143 INFO [Reply]                 Part.java:351  | Sheet#7 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,143 INFO [Reply]                 Part.java:351  | Sheet#7 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,143 INFO [Reply]                 Part.java:351  | Sheet#7 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,144 INFO [Reply]                 Part.java:351  | Sheet#7 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,145 INFO [Reply]                 Part.java:351  | Sheet#7 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,145 INFO [Reply]                 Part.java:351  | Sheet#7 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,146 INFO [Reply]                 Part.java:351  | Sheet#7 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,146 INFO [Reply]                 Part.java:351  | Sheet#7 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,146 INFO [Reply]                 Part.java:351  | Sheet#7 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,147 INFO [Reply]                 Part.java:351  | Sheet#7 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,147 INFO [Reply]                 Part.java:351  | Sheet#7 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,147 INFO [Reply]                 Part.java:351  | Sheet#7 System#3 Part#4{ staves[5,6] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,147 INFO [Reply]                 Part.java:351  | Sheet#7 System#4 Part#4{ staves[7,8] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,147 INFO [Reply]                 Part.java:351  | Sheet#7 System#5 Part#4{ staves[9,10] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,160 INFO [Reply]                 Part.java:351  | Sheet#8 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,162 INFO [Reply]                 Part.java:351  | Sheet#8 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 1
+2026-05-24 02:56:30,163 INFO [Reply]                 Part.java:351  | Sheet#8 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,163 INFO [Reply]                 Part.java:351  | Sheet#8 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,163 INFO [Reply]                 Part.java:351  | Sheet#8 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,164 INFO [Reply]                 Part.java:351  | Sheet#8 System#2 Part#4{ staves[3,4] configs:[5,5]} dummyPart id: 3
+2026-05-24 02:56:30,351 INFO [Reply]        ScoreExporter.java:164  | Score Reply.mvt1 exported to D:\Program\Python\Piano\Reply_Audiveris\Reply.mvt1.mxl
+2026-05-24 02:56:30,351 INFO [Reply]      PartwiseBuilder.java:2706 | Exporting sheet(s): [#8#9#10]
+2026-05-24 02:56:30,352 INFO [Reply]                 Part.java:351  | Sheet#8 System#3 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2026-05-24 02:56:30,357 INFO [Reply]                 Part.java:351  | Sheet#8 System#4 Part#1{ staves[6,7] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,357 INFO [Reply]                 Part.java:351  | Sheet#8 System#5 Part#1{ staves[8,9] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,367 WARN [Reply]      PartwiseBuilder.java:1777 | Error visiting KeyInter#7897{(0.973/0.973) staff:7 KEY_CANCEL pitch:-3.1 fifths:null} in {Page#9.1}
+java.lang.NumberFormatException: For input string: "null"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1742)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1795)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2041)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3222)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-05-24 02:56:30,369 INFO [Reply]                 Part.java:351  | Sheet#9 System#1 Part#1{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,370 INFO [Reply]                 Part.java:351  | Sheet#9 System#2 Part#1{ staves[3,4] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,370 INFO [Reply]                 Part.java:351  | Sheet#9 System#3 Part#1{ staves[5,6] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,370 INFO [Reply]                 Part.java:351  | Sheet#9 System#4 Part#1{ staves[7,8] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,370 WARN [Reply]      PartwiseBuilder.java:1777 | Error visiting KeyInter#0{(nul) staff:0 pitch:n fifths:null} in {Page#9.1}
+java.lang.NumberFormatException: For input string: "null"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at java.base/java.math.BigInteger.<init>(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder.processKey(PartwiseBuilder.java:1742)
+	at org.audiveris.omr.score.PartwiseBuilder.processKeys(PartwiseBuilder.java:1795)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2041)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3229)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-05-24 02:56:30,370 INFO [Reply]                 Part.java:351  | Sheet#9 System#5 Part#1{ staves[9,10] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,375 INFO [Reply]                 Part.java:351  | Sheet#10 System#1 Part#1{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,377 INFO [Reply]                 Part.java:351  | Sheet#10 System#2 Part#1{ staves[3,4] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,377 INFO [Reply]                 Part.java:351  | Sheet#10 System#3 Part#1{ staves[5,6] configs:[5,5]} dummyPart id: 2
+2026-05-24 02:56:30,400 INFO [Reply]        ScoreExporter.java:164  | Score Reply.mvt2 exported to D:\Program\Python\Piano\Reply_Audiveris\Reply.mvt2.mxl
+2026-05-24 02:56:30,477 INFO [Reply]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:56:30,875 INFO [Reply]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-05-24 02:56:31,224 INFO [Reply]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-05-24 02:56:31,664 INFO [Reply]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-05-24 02:56:32,076 INFO [Reply]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-05-24 02:56:32,442 INFO [Reply]                Sheet.java:1583 | Stored /sheet#5/sheet#5.xml
+2026-05-24 02:56:32,820 INFO [Reply]                Sheet.java:1583 | Stored /sheet#8/sheet#8.xml
+2026-05-24 02:56:32,821 INFO [Reply]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\Reply_Audiveris\Reply.omr
+2026-05-24 02:56:32,861 INFO [Reply]                Score.java:181  | Closing {Score 1}
+2026-05-24 02:56:32,861 INFO [Reply]                Score.java:181  | Closing {Score 2}

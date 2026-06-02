@@ -1,0 +1,257 @@
+2026-05-24 02:44:16,117 INFO [Ray]                 Book.java:560  | 5 sheets in D:\Program\Python\Piano\Ray.pdf
+2026-05-24 02:44:16,254 INFO []                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:44:16,257 INFO []                 Book.java:2525 | Book stored as D:\Program\Python\Piano\test\Ray.omr
+2026-05-24 02:44:16,259 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1#2#3#4#5]
+2026-05-24 02:44:16,261 INFO [Ray#1]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:44:16,634 INFO [Ray#1]            SheetStub.java:1278 | Loaded image #1 2479x3508 from D:\Program\Python\Piano\Ray.pdf
+2026-05-24 02:44:16,638 INFO [Ray#1]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:44:17,005 INFO [Ray#1]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:44:17,029 INFO [Ray#1]         ScaleBuilder.java:255  | Beam  guessed height: 13 -- mid of [6..20]
+2026-05-24 02:44:17,030 INFO [Ray#1]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.29 of [6..20] range at 385% of needed quorum
+2026-05-24 02:44:17,030 INFO [Ray#1]         ScaleBuilder.java:401  | Normalized black jitter: 0.00 %
+2026-05-24 02:44:17,030 INFO [Ray#1]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(3,3,3) beam(10)}
+2026-05-24 02:44:17,030 INFO [Ray#1]       StepMonitoring.java:98   | GRID
+2026-05-24 02:44:17,365 INFO [Ray#1]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:44:17,410 INFO [Ray#1]    ClustersRetriever.java:326  | Retrieved raw line clusters: 8 of sizes [5] with interline(20,21,21)
+2026-05-24 02:44:17,557 INFO [Ray#1]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8]
+2026-05-24 02:44:17,750 INFO [Ray#1]        SystemManager.java:134  | Indentation detected for system #1
+2026-05-24 02:44:17,750 INFO [Ray#1]        SystemManager.java:779  | 1 part along 4 systems
+2026-05-24 02:44:17,751 INFO [Ray#1]                 Book.java:543  | Created scores: [{Score 1}]
+2026-05-24 02:44:17,752 INFO [Ray#1]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:44:18,614 INFO [Ray#1]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:44:18,652 INFO [Ray#1]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:44:18,719 INFO [Ray#1]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:44:21,191 INFO [Ray#1]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:44:21,381 INFO [Ray#1]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:44:24,437 INFO [Ray#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2026-05-24 02:44:24,438 INFO [Ray#1]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:44:24,951 INFO [Ray#1]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:44:25,061 INFO [Ray#1]        ReductionStep.java:105  | Stems free length median value: 73 pixels, 3.5 interlines
+2026-05-24 02:44:25,067 INFO [Ray#1]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:44:25,067 INFO [Ray#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:44:25,068 INFO [Ray#1]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:44:25,179 WARN [Ray#1]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:44:25,179 INFO [Ray#1]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:44:25,188 INFO [Ray#1]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:44:25,196 INFO [Ray#1]                 Page.java:307  | 12 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4]
+2026-05-24 02:44:25,197 INFO [Ray#1]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:44:25,216 INFO [Ray#1]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:44:25,890 INFO [Ray#1]         SlursBuilder.java:240  | Slurs: 12
+2026-05-24 02:44:25,911 INFO [Ray#1]      SegmentsBuilder.java:155  | Segments: 6
+2026-05-24 02:44:25,927 INFO [Ray#1]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:44:26,539 INFO [Ray#1]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:44:26,562 INFO [Ray#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5184{(0.329) staff:6 OTTAVA BASSA} at java.awt.Point[x=202,y=2776]
+2026-05-24 02:44:26,572 INFO [Ray#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5193{(0.329) staff:7 OTTAVA ALTA} at java.awt.Point[x=202,y=2776]
+2026-05-24 02:44:26,583 INFO [Ray#1]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:44:26,641 INFO [Ray#1]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:44:26,648 INFO [Ray#1]                 Book.java:2584 | Book{Ray} storing
+2026-05-24 02:44:26,695 INFO [Ray#1]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:44:26,791 INFO [Ray#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-05-24 02:44:27,253 INFO [Ray#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-05-24 02:44:27,254 INFO [Ray#1]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\test\Ray.omr
+2026-05-24 02:44:27,257 INFO [Ray#1]            SheetStub.java:1655 | Sheet#1 disposed
+2026-05-24 02:44:27,288 INFO [Ray#1]                 Book.java:2050 | End of Stub#1
+2026-05-24 02:44:27,288 INFO [Ray#2]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:44:27,353 INFO [Ray#2]            SheetStub.java:1278 | Loaded image #2 2479x3508 from D:\Program\Python\Piano\Ray.pdf
+2026-05-24 02:44:27,353 INFO [Ray#2]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:44:27,661 INFO [Ray#2]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:44:27,676 INFO [Ray#2]         ScaleBuilder.java:255  | Beam  guessed height: 13 -- mid of [6..20]
+2026-05-24 02:44:27,678 INFO [Ray#2]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.29 of [6..20] range at 333% of needed quorum
+2026-05-24 02:44:27,678 INFO [Ray#2]         ScaleBuilder.java:401  | Normalized black jitter: 4.76 %
+2026-05-24 02:44:27,678 INFO [Ray#2]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,3,3) beam(10)}
+2026-05-24 02:44:27,678 INFO [Ray#2]       StepMonitoring.java:98   | GRID
+2026-05-24 02:44:27,790 INFO [Ray#2]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:44:27,804 INFO [Ray#2]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2026-05-24 02:44:27,882 INFO [Ray#2]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-24 02:44:27,980 INFO [Ray#2]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-24 02:44:27,981 INFO [Ray#2]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:44:28,249 INFO [Ray#2]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:44:28,276 INFO [Ray#2]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:44:28,286 INFO [Ray#2]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:44:30,422 INFO [Ray#2]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:44:30,511 INFO [Ray#2]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:44:34,290 INFO [Ray#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.4] NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-24 02:44:34,290 INFO [Ray#2]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:44:34,607 INFO [Ray#2]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:44:34,675 INFO [Ray#2]        ReductionStep.java:105  | Stems free length median value: 64 pixels, 3.0 interlines
+2026-05-24 02:44:34,679 INFO [Ray#2]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:44:34,679 INFO [Ray#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:44:34,680 INFO [Ray#2]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:44:34,757 WARN [Ray#2]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:44:34,758 INFO [Ray#2]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:44:34,759 INFO [Ray#2]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:44:34,759 INFO [Ray#2]                 Page.java:307  | 15 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4, 3 in system#5]
+2026-05-24 02:44:34,761 INFO [Ray#2]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:44:34,766 INFO [Ray#2]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:44:35,289 INFO [Ray#2]         SlursBuilder.java:240  | Slurs: 22
+2026-05-24 02:44:35,303 INFO [Ray#2]      SegmentsBuilder.java:155  | Segments: 10
+2026-05-24 02:44:35,307 INFO [Ray#2]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:44:35,619 INFO [Ray#2]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:44:35,619 INFO [Ray#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5490{(0.134) staff:1 QUINDICESIMA ALTA} at java.awt.Point[x=194,y=370]
+2026-05-24 02:44:35,621 INFO [Ray#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5496{(0.524) staff:2 QUINDICESIMA BASSA} at java.awt.Point[x=195,y=992]
+2026-05-24 02:44:35,628 INFO [Ray#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5524{(0.524) staff:3 QUINDICESIMA ALTA} at java.awt.Point[x=195,y=992]
+2026-05-24 02:44:35,639 INFO [Ray#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5552{(0.711) staff:6 VENTIDUESIMA BASSA} at java.awt.Point[x=194,y=2237]
+2026-05-24 02:44:35,647 INFO [Ray#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5569{(0.711) staff:7 VENTIDUESIMA ALTA} at java.awt.Point[x=194,y=2237]
+2026-05-24 02:44:35,661 INFO [Ray#2]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:44:35,661 INFO [Ray#2]           PageRhythm.java:199  | {Page#2.1} Time value reused from sheet#1
+2026-05-24 02:44:35,697 INFO [Ray#2]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:44:35,698 INFO [Ray#2]                 Book.java:2584 | Book{Ray} storing
+2026-05-24 02:44:35,746 INFO [Ray#2]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:44:35,793 INFO [Ray#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2026-05-24 02:44:36,083 INFO [Ray#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-05-24 02:44:36,083 INFO [Ray#2]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\test\Ray.omr
+2026-05-24 02:44:36,088 INFO [Ray#2]            SheetStub.java:1655 | Sheet#2 disposed
+2026-05-24 02:44:36,112 INFO [Ray#2]                 Book.java:2050 | End of Stub#2
+2026-05-24 02:44:36,113 INFO [Ray#3]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:44:36,298 INFO [Ray#3]            SheetStub.java:1278 | Loaded image #3 2479x3508 from D:\Program\Python\Piano\Ray.pdf
+2026-05-24 02:44:36,298 INFO [Ray#3]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:44:36,572 INFO [Ray#3]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:44:36,574 INFO [Ray#3]         ScaleBuilder.java:255  | Beam  guessed height: 13 -- mid of [6..20]
+2026-05-24 02:44:36,576 INFO [Ray#3]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.29 of [6..20] range at 439% of needed quorum
+2026-05-24 02:44:36,576 INFO [Ray#3]         ScaleBuilder.java:401  | Normalized black jitter: 9.52 %
+2026-05-24 02:44:36,576 INFO [Ray#3]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,3,4) beam(10)}
+2026-05-24 02:44:36,576 INFO [Ray#3]       StepMonitoring.java:98   | GRID
+2026-05-24 02:44:36,657 INFO [Ray#3]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:44:36,666 INFO [Ray#3]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2026-05-24 02:44:36,702 INFO [Ray#3]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-24 02:44:36,812 INFO [Ray#3]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-24 02:44:36,814 INFO [Ray#3]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:44:37,071 INFO [Ray#3]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:44:37,096 INFO [Ray#3]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:44:37,103 INFO [Ray#3]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:44:39,257 INFO [Ray#3]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:44:39,336 INFO [Ray#3]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:44:43,622 INFO [Ray#3]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.5] NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-24 02:44:43,624 INFO [Ray#3]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:44:44,214 INFO [Ray#3]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:44:44,392 INFO [Ray#3]        ReductionStep.java:105  | Stems free length median value: 67 pixels, 3.2 interlines
+2026-05-24 02:44:44,396 INFO [Ray#3]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:44:44,396 INFO [Ray#3]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:44:44,396 INFO [Ray#3]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:44:44,494 WARN [Ray#3]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:44:44,494 INFO [Ray#3]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:44:44,496 INFO [Ray#3]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:44:44,496 INFO [Ray#3]                 Page.java:307  | 15 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4, 3 in system#5]
+2026-05-24 02:44:44,496 INFO [Ray#3]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:44:44,502 INFO [Ray#3]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:44:45,022 INFO [Ray#3]         SlursBuilder.java:240  | Slurs: 46
+2026-05-24 02:44:45,071 INFO [Ray#3]      SegmentsBuilder.java:155  | Segments: 15
+2026-05-24 02:44:45,100 INFO [Ray#3]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:44:45,498 INFO [Ray#3]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:44:45,499 INFO [Ray#3]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7658{(0.191) staff:1 VENTIDUESIMA ALTA} at java.awt.Point[x=194,y=370]
+2026-05-24 02:44:45,500 INFO [Ray#3]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7666{(0.173) staff:1 VENTIDUESIMA ALTA} at java.awt.Point[x=194,y=370]
+2026-05-24 02:44:45,551 INFO [Ray#3]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:44:45,552 INFO [Ray#3]           PageRhythm.java:199  | {Page#3.1} Time value reused from sheet#1
+2026-05-24 02:44:45,572 INFO [Ray#3]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:44:45,575 INFO [Ray#3]                 Book.java:2584 | Book{Ray} storing
+2026-05-24 02:44:45,626 INFO [Ray#3]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:44:45,673 INFO [Ray#3]           DataHolder.java:348  | Stored /sheet#3/BINARY.png
+2026-05-24 02:44:46,060 INFO [Ray#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-05-24 02:44:46,060 INFO [Ray#3]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\test\Ray.omr
+2026-05-24 02:44:46,065 INFO [Ray#3]            SheetStub.java:1655 | Sheet#3 disposed
+2026-05-24 02:44:46,089 INFO [Ray#3]                 Book.java:2050 | End of Stub#3
+2026-05-24 02:44:46,090 INFO [Ray#4]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:44:46,276 INFO [Ray#4]            SheetStub.java:1278 | Loaded image #4 2479x3508 from D:\Program\Python\Piano\Ray.pdf
+2026-05-24 02:44:46,276 INFO [Ray#4]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:44:46,560 INFO [Ray#4]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:44:46,562 INFO [Ray#4]         ScaleBuilder.java:255  | Beam  guessed height: 13 -- mid of [6..20]
+2026-05-24 02:44:46,562 INFO [Ray#4]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.29 of [6..20] range at 417% of needed quorum
+2026-05-24 02:44:46,562 INFO [Ray#4]         ScaleBuilder.java:401  | Normalized black jitter: 4.76 %
+2026-05-24 02:44:46,562 INFO [Ray#4]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,3,3) beam(10)}
+2026-05-24 02:44:46,562 INFO [Ray#4]       StepMonitoring.java:98   | GRID
+2026-05-24 02:44:46,636 INFO [Ray#4]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:44:46,645 INFO [Ray#4]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2026-05-24 02:44:46,684 INFO [Ray#4]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2026-05-24 02:44:46,788 INFO [Ray#4]        SystemManager.java:779  | 1 part along 5 systems
+2026-05-24 02:44:46,788 INFO [Ray#4]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:44:47,046 INFO [Ray#4]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:44:47,069 INFO [Ray#4]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:44:47,078 INFO [Ray#4]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:44:49,238 INFO [Ray#4]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:44:49,315 INFO [Ray#4]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:44:53,643 INFO [Ray#4]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.5] NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-24 02:44:53,643 INFO [Ray#4]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:44:54,101 INFO [Ray#4]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:44:54,211 INFO [Ray#4]        ReductionStep.java:105  | Stems free length median value: 67 pixels, 3.2 interlines
+2026-05-24 02:44:54,212 INFO [Ray#4]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:44:54,214 INFO [Ray#4]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:44:54,214 INFO [Ray#4]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:44:54,296 WARN [Ray#4]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:44:54,297 INFO [Ray#4]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:44:54,298 INFO [Ray#4]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:44:54,299 INFO [Ray#4]                 Page.java:307  | 15 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4, 3 in system#5]
+2026-05-24 02:44:54,299 INFO [Ray#4]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:44:54,303 INFO [Ray#4]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:44:54,770 INFO [Ray#4]         SlursBuilder.java:240  | Slurs: 62
+2026-05-24 02:44:54,783 INFO [Ray#4]      SegmentsBuilder.java:155  | Segments: 13
+2026-05-24 02:44:54,790 INFO [Ray#4]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:44:55,536 INFO [Ray#4]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:44:55,575 INFO [Ray#4]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:44:55,576 INFO [Ray#4]           PageRhythm.java:199  | {Page#4.1} Time value reused from sheet#1
+2026-05-24 02:44:55,588 INFO [Ray#4]        MeasureRhythm.java:1276 | Measure{#8} Time inconsistency in {7/8=[HeadChordInter#6892{(0.962/0.962) staff:6 slot#8 off:7/8 dur:1/8}], 15/16=[HeadChordInter#6869{(0.970/0.970) staff:5 slot#8 off:15/16 dur:1/8}]}
+2026-05-24 02:44:55,589 INFO [Ray#4]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/16} too long
+2026-05-24 02:44:55,589 INFO [Ray#4]          StackRhythm.java:224  | S3 MeasureStack#8 no correct rhythm
+2026-05-24 02:44:55,596 INFO [Ray#4]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:44:55,598 INFO [Ray#4]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/16} too long
+2026-05-24 02:44:55,599 INFO [Ray#4]                 Book.java:2584 | Book{Ray} storing
+2026-05-24 02:44:55,652 INFO [Ray#4]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:44:55,700 INFO [Ray#4]           DataHolder.java:348  | Stored /sheet#4/BINARY.png
+2026-05-24 02:44:56,068 INFO [Ray#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-05-24 02:44:56,068 INFO [Ray#4]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\test\Ray.omr
+2026-05-24 02:44:56,073 INFO [Ray#4]            SheetStub.java:1655 | Sheet#4 disposed
+2026-05-24 02:44:56,098 INFO [Ray#4]                 Book.java:2050 | End of Stub#4
+2026-05-24 02:44:56,098 INFO [Ray#5]       StepMonitoring.java:98   | LOAD
+2026-05-24 02:44:56,159 INFO [Ray#5]            SheetStub.java:1278 | Loaded image #5 2479x3508 from D:\Program\Python\Piano\Ray.pdf
+2026-05-24 02:44:56,161 INFO [Ray#5]       StepMonitoring.java:98   | BINARY
+2026-05-24 02:44:56,439 INFO [Ray#5]       StepMonitoring.java:98   | SCALE
+2026-05-24 02:44:56,441 INFO [Ray#5]         ScaleBuilder.java:255  | Beam  guessed height: 13 -- mid of [6..20]
+2026-05-24 02:44:56,441 INFO [Ray#5]         ScaleBuilder.java:271  | Beam measured height: 10 -- 0.29 of [6..20] range at 503% of needed quorum
+2026-05-24 02:44:56,441 INFO [Ray#5]         ScaleBuilder.java:401  | Normalized black jitter: 4.76 %
+2026-05-24 02:44:56,441 INFO [Ray#5]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,3,3) beam(10)}
+2026-05-24 02:44:56,441 INFO [Ray#5]       StepMonitoring.java:98   | GRID
+2026-05-24 02:44:56,470 INFO [Ray#5]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-05-24 02:44:56,473 INFO [Ray#5]    ClustersRetriever.java:326  | Retrieved raw line clusters: 4 of sizes [5] with interline(20,21,21)
+2026-05-24 02:44:56,485 INFO [Ray#5]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4]
+2026-05-24 02:44:56,547 INFO [Ray#5]        SystemManager.java:779  | 1 part along 2 systems
+2026-05-24 02:44:56,547 INFO [Ray#5]       StepMonitoring.java:98   | HEADERS
+2026-05-24 02:44:56,640 INFO [Ray#5]       StepMonitoring.java:98   | STEM_SEEDS
+2026-05-24 02:44:56,660 INFO [Ray#5]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-05-24 02:44:56,663 INFO [Ray#5]       StepMonitoring.java:98   | BEAMS
+2026-05-24 02:44:58,513 INFO [Ray#5]       StepMonitoring.java:98   | LEDGERS
+2026-05-24 02:44:58,538 INFO [Ray#5]       StepMonitoring.java:98   | HEADS
+2026-05-24 02:45:00,002 INFO [Ray#5]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2026-05-24 02:45:00,002 INFO [Ray#5]       StepMonitoring.java:98   | STEMS
+2026-05-24 02:45:00,073 INFO [Ray#5]       StepMonitoring.java:98   | REDUCTION
+2026-05-24 02:45:00,086 INFO [Ray#5]        ReductionStep.java:105  | Stems free length median value: 72 pixels, 3.4 interlines
+2026-05-24 02:45:00,087 INFO [Ray#5]       StepMonitoring.java:98   | CUE_BEAMS
+2026-05-24 02:45:00,087 INFO [Ray#5]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-05-24 02:45:00,087 INFO [Ray#5]       StepMonitoring.java:98   | TEXTS
+2026-05-24 02:45:00,148 WARN [Ray#5]         TesseractOCR.java:341  | Language 'eng' is not supported
+2026-05-24 02:45:00,149 INFO [Ray#5]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-05-24 02:45:00,150 INFO [Ray#5]       StepMonitoring.java:98   | MEASURES
+2026-05-24 02:45:00,150 INFO [Ray#5]                 Page.java:307  | 6 raw measures: [3 in system#1, 3 in system#2]
+2026-05-24 02:45:00,150 INFO [Ray#5]       StepMonitoring.java:98   | CHORDS
+2026-05-24 02:45:00,151 INFO [Ray#5]       StepMonitoring.java:98   | CURVES
+2026-05-24 02:45:00,436 INFO [Ray#5]         SlursBuilder.java:240  | Slurs: 8
+2026-05-24 02:45:00,439 INFO [Ray#5]      SegmentsBuilder.java:155  | Segments: 6
+2026-05-24 02:45:00,441 INFO [Ray#5]       StepMonitoring.java:98   | SYMBOLS
+2026-05-24 02:45:00,634 INFO [Ray#5]       StepMonitoring.java:98   | LINKS
+2026-05-24 02:45:00,646 INFO [Ray#5]       StepMonitoring.java:98   | RHYTHMS
+2026-05-24 02:45:00,646 INFO [Ray#5]           PageRhythm.java:199  | {Page#5.1} Time value reused from sheet#1
+2026-05-24 02:45:00,651 INFO [Ray#5]       StepMonitoring.java:98   | PAGE
+2026-05-24 02:45:00,653 INFO [Ray#5]                 Book.java:2584 | Book{Ray} storing
+2026-05-24 02:45:00,686 INFO [Ray#5]                 Book.java:2565 | Stored /book.xml
+2026-05-24 02:45:00,724 INFO [Ray#5]           DataHolder.java:348  | Stored /sheet#5/BINARY.png
+2026-05-24 02:45:00,836 INFO [Ray#5]                Sheet.java:1583 | Stored /sheet#5/sheet#5.xml
+2026-05-24 02:45:00,836 INFO [Ray#5]                 Book.java:2525 | Book stored as D:\Program\Python\Piano\test\Ray.omr
+2026-05-24 02:45:00,841 INFO [Ray#5]            SheetStub.java:1655 | Sheet#5 disposed
+2026-05-24 02:45:00,866 INFO [Ray#5]                 Book.java:2050 | End of Stub#5
+2026-05-24 02:45:00,866 INFO [Ray]                 Book.java:2057 | End of Book{Ray}
+2026-05-24 02:45:01,110 INFO [Ray]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-05-24 02:45:01,275 INFO [Ray]            SheetStub.java:1000 | Loaded /sheet#2/sheet#2.xml
+2026-05-24 02:45:01,441 INFO [Ray]            SheetStub.java:1000 | Loaded /sheet#3/sheet#3.xml
+2026-05-24 02:45:01,593 INFO [Ray]            SheetStub.java:1000 | Loaded /sheet#4/sheet#4.xml
+2026-05-24 02:45:01,697 INFO [Ray]            SheetStub.java:1000 | Loaded /sheet#5/sheet#5.xml
+2026-05-24 02:45:01,987 INFO [Ray]      PartwiseBuilder.java:2706 | Exporting sheet(s): [#1#2#3#4#5]
+2026-05-24 02:45:02,139 INFO [Ray]        ScoreExporter.java:164  | Score Ray exported to D:\Program\Python\Piano\test\Ray.mxl
+2026-05-24 02:45:02,182 INFO [Ray]                Score.java:181  | Closing {Score 1}
