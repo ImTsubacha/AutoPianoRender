@@ -46,7 +46,9 @@ def main():
     audiveris_exe = r"\Audiveris\Audiveris.exe"
 
     base_name = os.path.splitext(os.path.basename(pdf_path))[0]
-    dir_name = f"test_{base_name}_Audiveris"
+    
+    #Completed フォルダの下に曲名（base_name）のフォルダを作る設定に変更
+    dir_name = os.path.join("Completed", base_name)
     
     os.makedirs(dir_name, exist_ok=True)
     print(f"保存用ディレクトリ '{dir_name}' を作成/確認しました。")
@@ -66,7 +68,7 @@ def main():
         if ans != 'n':
             skip_step1 = True
             mxl_path = mxl_files[0]
-            print("⏭️ Step 1 をスキップしました。")
+            print("Step 1 をスキップしました。")
     
     if not skip_step1:
         os.environ["_JAVA_OPTIONS"] = "-Xmx16G"
@@ -164,11 +166,11 @@ def main():
     
     print("\n【Step 3】sfizzエンジンで最高音質SFZをWAVへ一括レンダリング中...")
     
-    sfz_dir = r"D:\Program\Python\Piano\AccurateSalamanderGrandPianoV6.2beta2_48khz24bit\sfz_daw"
+    sfz_dir = r"\AccurateSalamanderGrandPianoV6.2beta2_48khz24bit\sfz_daw"
     sfz_filename = "Accurate-SalamanderGrandPiano_flat.Recommended.sfz"
     
     midi_path_abs = os.path.abspath(midi_path)
-    sfizz_exe_abs = os.path.abspath(r"D:\Program\Python\Piano\sfizz-1.2.3-win64\bin\Release\sfizz_render.exe")
+    sfizz_exe_abs = os.path.abspath(r"\sfizz-1.2.3-win64\bin\Release\sfizz_render.exe")
     
     cmd_sfizz = [
         sfizz_exe_abs,
