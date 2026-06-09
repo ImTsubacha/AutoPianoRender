@@ -33,6 +33,7 @@ sfizz-1.2.3-win64 （レンダリングエンジン本体）
 AccurateSalamanderGrandPianoV6.2beta2_48khz24bit （SFZ音源データ）
 
 また、Pythonの依存ライブラリとして、あらかじめパッケージをインストールしておく必要があります。
+
 music21 pedalboard soundfile
 
 使用方法
