@@ -14,7 +14,7 @@ def main():
 
     dir_name = os.path.splitext(pdf_path)[0]
     os.makedirs(dir_name, exist_ok=True)
-    print(f"📁 保存用ディレクトリ '{dir_name}' を作成/確認しました。")
+    print(f"保存用ディレクトリ '{dir_name}' を作成/確認しました。")
 
     print(f"【Step 1】'{pdf_path}' を読み込み、ページごとの画像に分解中...")
     pages = convert_from_path(pdf_path, dpi=300, poppler_path=r"D:\poppler-26.02.0\Library\bin")
@@ -29,7 +29,7 @@ def main():
     
     for i, page_img in enumerate(pages):
         page_num = i + 1
-        print(f"\n--- 📄 ページ {page_num} / {len(pages)} を処理中 ---")
+        print(f"\n--- ページ {page_num} / {len(pages)} を処理中 ---")
         
         img_name = f"temp_page_{page_num}.png"
         img_path = os.path.join(dir_name, img_name)
@@ -89,7 +89,7 @@ def main():
         try:
             page_key = score_data.analyze('key')
             in_scale_classes = [p.pitchClass for p in page_key.pitches]
-            print(f"🎵 判定されたキー: {page_key}")
+            print(f"判定されたキー: {page_key}")
         except:
             in_scale_classes = list(range(12)) # 判定失敗時は全音許可
 
@@ -115,7 +115,7 @@ def main():
                 gap = next_offset - curr_end
                 if gap <= 2.5: curr_n.duration.quarterLength += gap
 
-        # --- 🚀 3つのAI補正ロジックの適用 ---
+        # --- 3つのAI補正ロジックの適用 ---
         for el in flat_notes:
             if el.duration.quarterLength == 0: continue
             
@@ -148,7 +148,7 @@ def main():
 
     midi_path = os.path.join(dir_name, f"{dir_name}_full_song_temp.mid")
     filtered_stream.write('midi', fp=midi_path)
-    print(f"\n✅ 全ページの結合完了！ 合計 {total_note_count} 音のデータを保存しました。")
+    print(f"\n全ページの結合完了！ 合計 {total_note_count} 音のデータを保存しました。")
 
     print("\n【Step 3】FluidSynthで高音質WAVへ一括レンダリング中...")
     sf2_path = "UprightPianoKW-20220221.sf2"
@@ -168,7 +168,7 @@ def main():
     
     try:
         subprocess.run(cmd, check=True)
-        print(f"✨✨ 全工程クリア！ '{output_wav}' に完成しました！ ✨✨")
+        print(f"全工程クリア！ '{output_wav}' に完成しました！")
     except FileNotFoundError:
         print("エラー: fluidsynthが見つかりません。")
 

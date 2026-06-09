@@ -47,7 +47,7 @@ def main():
         return
 
     mxl_path = mxl_files[0]
-    print(f"✅ 見つかったXMLファイル: {mxl_path}")
+    print(f"見つかったXMLファイル: {mxl_path}")
 
     print(f"\n【Step 2】Music21によるリズムの論理補正を開始します...")
     try:

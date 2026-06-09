@@ -4,13 +4,13 @@ import fluidsynth
 def run_high_quality_piano_2octaves():
     print("サウンドエンジン(FluidSynth)を起動中...")
     fs = fluidsynth.Synth()
-    # --- ここから高音質化の魔法 ---
+    # --- ここから高音質化 ---
     fs.setting("synth.sample-rate", 44100.0) # 音の解像度をCD(44100)以上に引き上げる
     fs.setting("synth.polyphony", 128)       # ペダルを踏んだ時の和音の重なりが途切れないように上限を増やす
 
     fs.start(driver="dsound") 
 
-    # リバーブ（空間の反響）を豊かにする
+    # リバーブを豊かにする
     # set_reverb(部屋の広さ, 音の吸収率, 広がり, リバーブの音量)
     fs.set_reverb(0.8, 0.4, 100.0, 0.7)
 

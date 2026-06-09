@@ -31,7 +31,7 @@ def main():
     
     try:
         subprocess.run(cmd, check=True)
-        print(f"✨✨ 完了！ '{output_wav}' にフルコーラスの高音質演奏が書き出されました！ ✨✨")
+        print(f"完了！ '{output_wav}' にフルコーラスの高音質演奏が書き出されました！ ")
     except subprocess.CalledProcessError:
         print("エラー: 変換中に問題が発生しました。")
 
