@@ -4,6 +4,7 @@ import subprocess
 import glob
 import music21
 import fitz
+import shutil
 
 # Step 4用のDAWライブラリを読み込み（インストールされていない場合のエラー回避付き）
 try:
@@ -120,6 +121,18 @@ def main():
             # 処理が終わったら改行して完了メッセージを出す
             print(f"解析中: 100% ({total_sheets}/{total_sheets} ページ完了)".ljust(50))
             print("全ページの解析処理が完了しました！")
+            
+            log_dir = os.path.join(dir_name, "log")
+            os.makedirs(log_dir, exist_ok=True)
+            
+            # dir_name 以下のすべての .log ファイルを探して移動
+            for log_file in glob.glob(os.path.join(dir_name, "**", "*.log"), recursive=True):
+                # 既に log フォルダに入っているものは除外
+                if os.path.abspath(os.path.dirname(log_file)) != os.path.abspath(log_dir):
+                    try:
+                        shutil.move(log_file, log_dir)
+                    except Exception:
+                        pass
 
             if process.returncode != 0:
                 print(f"\nエラー: Audiverisが異常終了しました。(コード: {process.returncode})")
@@ -135,6 +148,8 @@ def main():
         except Exception as e:
             print(f"\nエラー: Audiverisの実行中に問題が発生しました。\n{e}")
             return
+        
+        
 
     # ==========================================
     # 【Step 2】 Music21 論理補正 (対話型スキップ)
