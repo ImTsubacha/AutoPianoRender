@@ -3,6 +3,7 @@ import sys
 import subprocess
 import glob
 import music21
+import fitz
 
 # Step 4用のDAWライブラリを読み込み（インストールされていない場合のエラー回避付き）
 try:
@@ -70,7 +71,20 @@ def main():
     if not skip_step1:
         os.environ["_JAVA_OPTIONS"] = "-Xmx16G"
         print("\nAudiverisに最大16GBのメモリ(RAM)を強制割り当てしました！")
-        print(f"【Step 1】Audiverisによる全ページ一括解析を開始します (元PDFを直接読み込み)")
+        
+        # 事前にPDFの総ページ数（分母）を取得しておく
+        try:
+            temp_doc = fitz.open(pdf_path)
+            total_sheets = len(temp_doc)
+            temp_doc.close()
+        except Exception:
+            total_sheets = 1 # 万が一取得できなかった場合の保険
+
+        completed_sheets = 0
+        print(f"【Step 1】Audiverisによる全ページ一括解析を開始します (全{total_sheets}ページ)")
+        
+        # 初期状態(0%)を表示
+        print(f"解析中: 0% (0/{total_sheets} ページ完了)".ljust(50), end='\r', flush=True)
         
         cmd = [
             audiveris_exe, "-batch", "-export",
@@ -79,15 +93,47 @@ def main():
         ]
         
         try:
-            subprocess.run(cmd, check=True, capture_output=True, text=True, encoding='utf-8', errors='replace')
+            process = subprocess.Popen(
+                cmd, 
+                stdout=subprocess.PIPE, 
+                stderr=subprocess.STDOUT, 
+                text=True, 
+                encoding='utf-8', 
+                errors='replace',
+                bufsize=1
+            )
+            
+            for line in process.stdout:
+                line = line.strip()
+                
+                # 1ページ分のXMLが保存された時だけカウントアップ
+                if "Stored /sheet" in line and ".xml" in line:
+                    completed_sheets += 1
+                    # パーセントを計算して整数にする (例: 1 / 4枚 * 100 = 25%)
+                    percent = int((completed_sheets / total_sheets) * 100)
+                    
+                    # ここで \r を使って同じ行の % を上書きする！
+                    print(f"解析中: {percent}% ({completed_sheets}/{total_sheets} ページ完了)".ljust(50), end='\r', flush=True)
+
+            process.wait()
+            
+            # 処理が終わったら改行して完了メッセージを出す
+            print(f"解析中: 100% ({total_sheets}/{total_sheets} ページ完了)".ljust(50))
+            print("全ページの解析処理が完了しました！")
+
+            if process.returncode != 0:
+                print(f"\nエラー: Audiverisが異常終了しました。(コード: {process.returncode})")
+                return
+
             mxl_files = glob.glob(os.path.join(dir_name, "**", "*.mxl"), recursive=True)
             if not mxl_files:
                 print(f"エラー: .mxl ファイルが生成されませんでした。")
                 return
             mxl_path = mxl_files[0]
             print(f"見つかったXMLファイル: {mxl_path}")
-        except subprocess.CalledProcessError as e:
-            print(f"\nエラー: Audiverisの解析に失敗しました。")
+            
+        except Exception as e:
+            print(f"\nエラー: Audiverisの実行中に問題が発生しました。\n{e}")
             return
 
     # ==========================================
@@ -149,7 +195,7 @@ def main():
     # ==========================================
     output_wav = os.path.abspath(os.path.join(dir_name, f"{base_name}.wav"))
     
-    print("\n【Step 3】sfizzエンジンで最高音質SFZをWAVへ一括レンダリング中...")
+    print("\n【Step 3】sfizzエンジンでSFZをWAVへ一括レンダリング中...")
     
     sfz_dir = os.path.abspath(r".\AccurateSalamanderGrandPianoV6.2beta2_48khz24bit\sfz_daw")
     sfz_filename = "Accurate-SalamanderGrandPiano_flat.Recommended.sfz"
