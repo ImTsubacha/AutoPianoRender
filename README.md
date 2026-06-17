@@ -34,7 +34,7 @@ AccurateSalamanderGrandPianoV6.2beta2_48khz24bit （SFZ音源データ）
 
 また、Pythonの依存ライブラリとして、あらかじめパッケージをインストールしておく必要があります。
 
-music21 pedalboard soundfile
+music21 pedalboard soundfile pymupdf
 
 使用方法
 ルートディレクトリに存在する Score フォルダに、変換対象となるPDFファイルを配置してPythonスクリプトを実行します。コンソール上に検出されたPDFの一覧が表示されるため、任意の番号を入力して処理を開始してください。
